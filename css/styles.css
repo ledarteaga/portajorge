@@ -1,3 +1,6 @@
+.hero-bg {
+  background-image: url(../../media/gif.gif); }
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,12 +9,15 @@
   flex-wrap: nowrap;
   padding: 1rem; }
   .navbar nav {
-    padding-left: 2rem; }
-
-@font-face {
-  .navbar nav {
     font-family: 'Vhs';
-    src: url(fonts/VCR_OSD_MONO_1.001.ttf); } }
+    padding-left: 2rem;
+    color: whitesmoke; }
+
+.hero-title {
+  padding-top: 18rem;
+  padding-bottom: 18rem;
+  padding-left: 2rem;
+  width: 100%; }
 
 * {
   -webkit-box-sizing: border-box;
