@@ -1,5 +1,8 @@
 .hero-bg {
-  background-image: url(../../media/gif.gif); }
+  background-image: url(../../media/hero-bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .navbar {
   display: -webkit-box;
@@ -17,7 +20,10 @@
   padding-top: 18rem;
   padding-bottom: 18rem;
   padding-left: 2rem;
-  width: 100%; }
+  width: 100%;
+  color: whitesmoke; }
+  .hero-title h1 {
+    padding-bottom: 0.5rem; }
 
 * {
   -webkit-box-sizing: border-box;
