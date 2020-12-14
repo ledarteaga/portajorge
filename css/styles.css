@@ -1,11 +1,17 @@
-@font-face {
-  font-family: 'Stranger Things';
-  src: url(fonts\itc-benguiat-bold.otf);
-  font-weight: bold; }
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding: 1rem; }
+  .navbar nav {
+    padding-left: 2rem; }
 
 @font-face {
-  font-family: 'Vhs';
-  src: url(fonts/VCR_OSD_MONO_1.001.ttf); }
+  .navbar nav {
+    font-family: 'Vhs';
+    src: url(fonts/VCR_OSD_MONO_1.001.ttf); } }
 
 * {
   -webkit-box-sizing: border-box;

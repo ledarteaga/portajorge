@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1rem;
+
+     nav{
+         @include Vhs;
+         padding-left: 2rem;
+     }
+
+
+}

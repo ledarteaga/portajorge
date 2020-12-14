@@ -1,0 +1,18 @@
+
+
+
+@mixin Vhs {
+    @font-face {
+        font-family: 'Vhs';
+        src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+    } 
+}
+
+@mixin Stranger-Things {
+    @font-face {
+        font-family: 'Stranger Things';
+        src: url(fonts\itc-benguiat-bold.otf);
+        font-weight: bold;
+    }
+    
+}
