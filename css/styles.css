@@ -3,6 +3,10 @@
   src: url(fonts\itc-benguiat-bold.otf);
   font-weight: bold; }
 
+@font-face {
+  font-family: 'Vhs';
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf); }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
