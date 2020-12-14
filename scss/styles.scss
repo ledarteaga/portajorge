@@ -1,1 +1,14 @@
 @import 'assets/hero.scss';
+
+@font-face {
+    font-family: 'Stranger Things';
+    src: url(fonts\itc-benguiat-bold.otf);
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
