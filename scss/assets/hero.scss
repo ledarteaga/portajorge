@@ -1,5 +1,5 @@
 .hero-bg{
-    background-image: url(../../media/hero-bg.gif);
+    background-image: url(../../media/gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,20 +11,21 @@
     padding: 1rem;
 
      nav{
-         font-family: 'Vhs';
-         padding-left: 2rem;
+         @include regular-font;
+         padding-left: 3rem;
          color:whitesmoke;
      }
 }
 
 .hero-title{
+    @include title-font;
     padding-top: 18rem;
-    padding-bottom: 18rem;
-    padding-left: 2rem;
+    padding-bottom: 15rem;
+    padding-left: 3rem;
     width: 100%;
     color: whitesmoke;
 
      h1{
-         padding-bottom: 0.5rem;
+         padding-bottom: 0.3rem;
      }
 }

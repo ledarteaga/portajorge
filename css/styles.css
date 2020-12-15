@@ -1,5 +1,5 @@
 .hero-bg {
-  background-image: url(../../media/hero-bg.gif);
+  background-image: url(../../media/gif.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -12,18 +12,22 @@
   flex-wrap: nowrap;
   padding: 1rem; }
   .navbar nav {
-    font-family: 'Vhs';
-    padding-left: 2rem;
+    font-family: 'Oswald';
+    padding-left: 3rem;
     color: whitesmoke; }
 
 .hero-title {
+  font-family: 'Oswald';
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 2rem;
   padding-top: 18rem;
-  padding-bottom: 18rem;
-  padding-left: 2rem;
+  padding-bottom: 15rem;
+  padding-left: 3rem;
   width: 100%;
   color: whitesmoke; }
   .hero-title h1 {
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.3rem; }
 
 * {
   -webkit-box-sizing: border-box;
