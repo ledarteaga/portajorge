@@ -1,0 +1,65 @@
+@mixin second-font {
+    font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 13px;
+letter-spacing: -0.02em;
+}
+
+@mixin regular-font {
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #C4C4C4;
+
+}
+
+@mixin title-font {
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: normal;
+font-size: 80px;
+line-height: 92px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #FF0A0A;
+}
+
+@mixin email-fonts {
+font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 40px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #C4C4C4;
+
+}
+
+@mixin body-fonts {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 45px;
+}
+
+@mixin subtitle-fonts {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 41px;
+letter-spacing: -0.02em;
+text-transform: lowercase;
+
+color: #E5E5E5;
+}
