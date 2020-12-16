@@ -11,14 +11,14 @@
     padding: 1rem;
 
      nav{
-         @include regular-font;
+         font-family: 'Press Start 2P';
          padding-left: 3rem;
          color:whitesmoke;
      }
 }
 
 .hero-title{
-    @include title-font;
+    font-family: 'Yeseva One';
     padding-top: 18rem;
     padding-bottom: 15rem;
     padding-left: 3rem;
