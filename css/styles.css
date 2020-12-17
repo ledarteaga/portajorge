@@ -2,26 +2,45 @@
   background-image: url(../../media/gif.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: 720px; }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  padding: 1rem; }
+  padding: 2rem 0; }
   .navbar nav {
-    font-family: 'Press Start 2P';
-    padding-left: 3rem;
-    color: whitesmoke; }
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .navbar nav a {
+      font-family: 'Press Start 2P';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 13px;
+      letter-spacing: -0.02em;
+      color: #E5E5E5;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 11px;
+      text-decoration: none; }
 
 .hero-title {
   font-family: 'Yeseva One';
-  padding-top: 18rem;
-  padding-bottom: 15rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FF0A0A;
+  margin: auto;
   padding-left: 3rem;
-  width: 100%;
   color: whitesmoke; }
   .hero-title h1 {
     padding-bottom: 0.3rem; }

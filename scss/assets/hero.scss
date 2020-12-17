@@ -3,26 +3,34 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 720px;
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 1rem;
+    
+    padding: 2rem 0;
+    
 
      nav{
-         font-family: 'Press Start 2P';
-         padding-left: 3rem;
-         color:whitesmoke;
-     }
+
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+
+        a{
+            @include second-font;
+            color: #E5E5E5;
+            display: flex;
+            margin-left: 11px;
+            text-decoration: none;
+        }
+        }
 }
 
 .hero-title{
-    font-family: 'Yeseva One';
-    padding-top: 18rem;
-    padding-bottom: 15rem;
+    @include title-font;
+    margin: auto;
     padding-left: 3rem;
-    width: 100%;
     color: whitesmoke;
 
      h1{
