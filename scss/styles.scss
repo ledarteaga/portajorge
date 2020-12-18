@@ -1,5 +1,6 @@
 
 @import 'fonts/fonts.scss';
+@import './mediaqueries.scss';
 @import 'assets/hero.scss';
 
 
@@ -8,5 +9,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+     @include xs {
+         overflow: hidden;
+     }
+
+     @include sm {
+         overflow: hidden;
+     }
 }
 

@@ -32,22 +32,25 @@
       text-decoration: none; }
 
 .hero-title {
-  font-family: 'Yeseva One';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 45px;
-  line-height: 92px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #FF0A0A;
   margin: auto;
-  text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   padding: 180px 0; }
   .hero-title h1 {
-    padding-bottom: 0.3rem; }
+    padding-bottom: 0.3rem;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FF0A0A;
+    text-align: center; }
+    @media screen and (max-width: 599px) {
+      .hero-title h1 {
+        font-size: 30px;
+        line-height: normal;
+        text-align: left;
+        margin-left: 1rem; } }
   .hero-title h2 {
     font-family: Yeseva One;
     font-style: normal;
@@ -57,7 +60,14 @@
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #C4C4C4;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    text-align: center; }
+    @media screen and (max-width: 599px) {
+      .hero-title h2 {
+        font-size: 25px;
+        line-height: normal;
+        text-align: left;
+        margin-left: 1rem; } }
 
 .links {
   display: -webkit-box;
@@ -68,9 +78,20 @@
   justify-content: center; }
   .links figure {
     margin-left: 2rem; }
+    @media screen and (max-width: 599px) {
+      .links figure {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start; } }
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+  @media screen and (max-width: 599px) {
+    * {
+      overflow: hidden; } }
+  @media screen and (min-width: 600px) and (max-width: 959px) {
+    * {
+      overflow: hidden; } }

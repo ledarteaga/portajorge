@@ -8,6 +8,7 @@
 }
 
 .navbar {
+
     
     padding: 2rem 0;
     
@@ -24,26 +25,46 @@
             display: flex;
             margin-left: 11px;
             text-decoration: none;
+
+            
         }
         }
+
+      
 }
 
 .hero-title{
 
 
-    @include title-font;
-    margin: auto;
-    text-align: center;
-    align-items: center;
+   
+    margin: auto;   
     padding: 180px 0;
 
      h1{
-         padding-bottom: 0.3rem;
+        
+        padding-bottom: 0.3rem;
+         @include title-font;
+         text-align: center;
+
+         @include xs {
+             font-size: 30px;
+             line-height: normal;
+             text-align: left;
+             margin-left: 1rem;
+         }
      }
 
      h2{
          @include email-fonts;
          text-transform: lowercase;
+         text-align: center;
+
+         @include xs {
+            font-size: 25px;
+            line-height: normal;
+            text-align: left;
+            margin-left: 1rem;
+         }
      
      }
 }
@@ -54,5 +75,10 @@
 
      figure {
          margin-left: 2rem;
+         
+         
+         @include xs {
+            justify-content: start;
+         }
      }
 }
