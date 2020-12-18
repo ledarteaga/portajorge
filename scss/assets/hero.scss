@@ -2,8 +2,9 @@
     background-image: url(../../media/gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 720px;
+    background-position: top;
+    height: 660px;
+    width: 100%;
 }
 
 .navbar {
@@ -28,12 +29,30 @@
 }
 
 .hero-title{
+
+
     @include title-font;
     margin: auto;
-    padding-left: 3rem;
-    color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    padding: 180px 0;
 
      h1{
          padding-bottom: 0.3rem;
+     }
+
+     h2{
+         @include email-fonts;
+         text-transform: lowercase;
+     
+     }
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+
+     figure {
+         margin-left: 2rem;
      }
 }

@@ -2,8 +2,9 @@
   background-image: url(../../media/gif.gif);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 720px; }
+  background-position: top;
+  height: 660px;
+  width: 100%; }
 
 .navbar {
   padding: 2rem 0; }
@@ -17,10 +18,10 @@
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
     .navbar nav a {
-      font-family: 'Press Start 2P';
+      font-family: 'Yeseva One';
       font-style: normal;
       font-weight: normal;
-      font-size: 13px;
+      font-size: 16px;
       line-height: 13px;
       letter-spacing: -0.02em;
       color: #E5E5E5;
@@ -34,16 +35,39 @@
   font-family: 'Yeseva One';
   font-style: normal;
   font-weight: normal;
-  font-size: 80px;
+  font-size: 45px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #FF0A0A;
   margin: auto;
-  padding-left: 3rem;
-  color: whitesmoke; }
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 180px 0; }
   .hero-title h1 {
     padding-bottom: 0.3rem; }
+  .hero-title h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    text-transform: lowercase; }
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .links figure {
+    margin-left: 2rem; }
 
 * {
   -webkit-box-sizing: border-box;
