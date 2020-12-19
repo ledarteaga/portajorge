@@ -1,0 +1,36 @@
+.servicios-bg {
+    background: #0f100d;
+
+     .blurb {
+         display: flex;
+         flex-wrap: nowrap;
+         padding: 8rem 1rem;
+     }
+
+     .figure {
+
+        width: 50%;
+
+         img {
+             width: 100%;
+         }
+     }
+
+     .blurb-text{
+         margin-left: 2rem;
+         width: 40%;
+
+          h2{
+              @include subtitle-fonts;
+              text-transform: uppercase;
+          }
+
+          p{
+              @include body-fonts;
+              
+              color: hsl(60, 2%, 88%);
+              margin-top: 1rem;
+          }
+     }
+
+}
