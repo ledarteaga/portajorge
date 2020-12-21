@@ -1,24 +1,36 @@
 .servicios-bg {
     background: #0f100d;
+    padding-top: 5rem;
 
      .blurb {
          display: flex;
          flex-wrap: nowrap;
-         padding: 8rem 1rem;
+         padding: 4rem 0;
+         border-top: solid rgba(245, 245, 220, 0.452);
+        
      }
 
      .figure {
 
         width: 50%;
 
-         img {
+         svg {
+             width: 80%;
+         }
+
+         @include xs {
              width: 100%;
          }
      }
 
      .blurb-text{
-         margin-left: 2rem;
-         width: 40%;
+         margin-left: 4rem;
+         width: 50%;
+
+         @include xs {
+             width: 100%;
+         }
+         
 
           h2{
               @include subtitle-fonts;
@@ -30,7 +42,10 @@
               
               color: hsl(60, 2%, 88%);
               margin-top: 1rem;
+              
           }
      }
+
+     
 
 }

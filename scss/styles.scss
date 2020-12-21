@@ -11,12 +11,17 @@
     margin: 0;
     padding: 0;
 
-     @include xs {
-         overflow: hidden;
-     }
+    
+}
 
-     @include sm {
-         overflow: hidden;
-     }
+body{
+    @include xs {
+        overflow: hidden;
+    }
+}
+
+.container {
+    width: 90%;
+    margin: auto;
 }
 

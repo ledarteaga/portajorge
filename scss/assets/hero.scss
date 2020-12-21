@@ -1,3 +1,5 @@
+
+
 .hero-bg{
     background-image: url(../../media/gif.gif);
     background-repeat: no-repeat;
@@ -18,6 +20,12 @@
         justify-content: center;
         display: flex;
         flex-wrap: nowrap;
+        transition: all 0.3s ease;
+
+        :hover{
+            color: #5e5e5e;
+            transition: all 0.3s ease;
+        }
 
         a{
             @include second-font;
@@ -25,6 +33,7 @@
             display: flex;
             margin-left: 11px;
             text-decoration: none;
+
 
             
         }
@@ -72,13 +81,31 @@
 .links{
     display: flex;
     justify-content: center;
+    transition: all 0.3s ease;
+
+
+   
 
      figure {
          margin-left: 2rem;
+         width: 40px;
+
+         
+         
+         :hover{
+             transform: scale(1.1);
+             transition: all 0.3s ease;
+         }
+         
+
+         img {
+             width: 100%;
+         }
          
          
          @include xs {
             justify-content: start;
+            width: 30px;
          }
      }
 }

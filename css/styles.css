@@ -16,7 +16,15 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; }
+    flex-wrap: nowrap;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .navbar nav :hover {
+      color: #5e5e5e;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
     .navbar nav a {
       font-family: 'Yeseva One';
       font-style: normal;
@@ -75,31 +83,53 @@
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   .links figure {
-    margin-left: 2rem; }
+    margin-left: 2rem;
+    width: 40px; }
+    .links figure :hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .links figure img {
+      width: 100%; }
     @media screen and (max-width: 599px) {
       .links figure {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
-        justify-content: start; } }
+        justify-content: start;
+        width: 30px; } }
 
 .servicios-bg {
-  background: #0f100d; }
+  background: #0f100d;
+  padding-top: 5rem; }
   .servicios-bg .blurb {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    padding: 8rem 1rem; }
+    padding: 4rem 0;
+    border-top: solid rgba(245, 245, 220, 0.452); }
   .servicios-bg .figure {
     width: 50%; }
-    .servicios-bg .figure img {
-      width: 100%; }
+    .servicios-bg .figure svg {
+      width: 80%; }
+    @media screen and (max-width: 599px) {
+      .servicios-bg .figure {
+        width: 100%; } }
   .servicios-bg .blurb-text {
-    margin-left: 2rem;
-    width: 40%; }
+    margin-left: 4rem;
+    width: 50%; }
+    @media screen and (max-width: 599px) {
+      .servicios-bg .blurb-text {
+        width: 100%; } }
     .servicios-bg .blurb-text h2 {
       font-family: 'Yeseva One';
       font-style: normal;
@@ -124,9 +154,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
-  @media screen and (max-width: 599px) {
-    * {
-      overflow: hidden; } }
-  @media screen and (min-width: 600px) and (max-width: 959px) {
-    * {
-      overflow: hidden; } }
+
+@media screen and (max-width: 599px) {
+  body {
+    overflow: hidden; } }
+
+.container {
+  width: 90%;
+  margin: auto; }
