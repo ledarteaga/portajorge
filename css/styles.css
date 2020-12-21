@@ -149,6 +149,21 @@
       color: #e1e1e0;
       margin-top: 1rem; }
 
+.subtitulo {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #E5E5E5;
+  text-transform: uppercase; }
+
+#marcas {
+  background: #0f100d;
+  padding-top: 5rem; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

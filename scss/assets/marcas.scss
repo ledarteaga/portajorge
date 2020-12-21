@@ -1,0 +1,10 @@
+.subtitulo {
+    @include subtitle-fonts;
+    text-transform: uppercase;
+}
+
+#marcas {
+    background: #0f100d;
+    padding-top: 5rem;
+
+}
