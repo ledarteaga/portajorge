@@ -4,9 +4,10 @@
 
      .blurb {
          display: flex;
-         flex-wrap: nowrap;
+         flex-wrap: wrap;
          padding: 4rem 0;
          border-top: solid rgba(245, 245, 220, 0.452);
+         border-bottom: solid rgba(245, 245, 220, 0.452);
         
      }
 
@@ -14,18 +15,25 @@
 
         width: 50%;
 
+        @include xs {
+            width: 90%;
+            margin: 5rem 0;
+        }
+
          svg {
-             width: 80%;
+             width: 70%;
+
+             @include xs {
+                 width: 100%;
+             }
          }
 
-         @include xs {
-             width: 100%;
-         }
+        
      }
 
      .blurb-text{
-         margin-left: 4rem;
-         width: 50%;
+         
+         width: 40%;
 
          @include xs {
              width: 100%;

@@ -113,20 +113,24 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 4rem 0;
-    border-top: solid rgba(245, 245, 220, 0.452); }
+    border-top: solid rgba(245, 245, 220, 0.452);
+    border-bottom: solid rgba(245, 245, 220, 0.452); }
   .servicios-bg .figure {
     width: 50%; }
-    .servicios-bg .figure svg {
-      width: 80%; }
     @media screen and (max-width: 599px) {
       .servicios-bg .figure {
-        width: 100%; } }
+        width: 90%;
+        margin: 5rem 0; } }
+    .servicios-bg .figure svg {
+      width: 70%; }
+      @media screen and (max-width: 599px) {
+        .servicios-bg .figure svg {
+          width: 100%; } }
   .servicios-bg .blurb-text {
-    margin-left: 4rem;
-    width: 50%; }
+    width: 40%; }
     @media screen and (max-width: 599px) {
       .servicios-bg .blurb-text {
         width: 100%; } }
@@ -158,21 +162,54 @@
   letter-spacing: -0.02em;
   text-transform: lowercase;
   color: #E5E5E5;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 1rem 0; }
 
 #marcas {
   background: #0f100d;
-  padding-top: 5rem; }
+  padding: 5rem 0; }
+  #marcas .brands {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #marcas .brands .row1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    #marcas .brands .row2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: auto;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    #marcas .brands figure {
+      width: 150px;
+      margin: 4rem; }
+      #marcas .brands figure img {
+        border-radius: 100%;
+        width: 100%;
+        -webkit-box-shadow: #0f100d;
+        box-shadow: #0f100d; }
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
-
-@media screen and (max-width: 599px) {
-  body {
-    overflow: hidden; } }
 
 .container {
   width: 90%;
