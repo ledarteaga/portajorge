@@ -8,4 +8,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 8rem 0;
+
+    @include xs {
+        span {
+            margin: 4rem 0;
+        }
+    }
 }
