@@ -6,12 +6,29 @@
 .videos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 8rem 0;
+    width: 100%;
+
+    span {
+        width: 33.33%;
+
+        @include xs {
+            width: 100%;
+        }
+
+         img{
+             width: 100%;
+             min-width: 200px;
+             display: block;
+             
+         }
+    }
+
+
+    .miprimeramor {height: 100%;}
 
     @include xs {
         span {
-            margin: 4rem 0;
+            
         }
     }
 }

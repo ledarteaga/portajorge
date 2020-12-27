@@ -4,157 +4,167 @@
   background-size: cover;
   background-position: top;
   height: 660px;
-  width: 100%; }
+  width: 100%;
+}
 
 .navbar {
-  padding: 2rem 0; }
-  .navbar nav {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
-    .navbar nav :hover {
-      color: #5e5e5e;
-      -webkit-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
-    .navbar nav a {
-      font-family: 'Yeseva One';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 13px;
-      letter-spacing: -0.02em;
-      color: #E5E5E5;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      margin-left: 11px;
-      text-decoration: none; }
+  padding: 2rem 0;
+}
+.navbar nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.navbar nav :hover {
+  color: #5e5e5e;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.navbar nav a {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 11px;
+  text-decoration: none;
+}
 
 .hero-title {
   margin: auto;
-  padding: 180px 0; }
+  padding: 180px 0;
+}
+.hero-title h1 {
+  padding-bottom: 0.3rem;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FF0A0A;
+  text-align: center;
+}
+@media screen and (max-width: 599px) {
   .hero-title h1 {
-    padding-bottom: 0.3rem;
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 92px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #FF0A0A;
-    text-align: center; }
-    @media screen and (max-width: 599px) {
-      .hero-title h1 {
-        font-size: 30px;
-        line-height: normal;
-        text-align: left;
-        margin-left: 1rem; } }
+    font-size: 30px;
+    line-height: normal;
+    text-align: left;
+    margin-left: 1rem;
+  }
+}
+.hero-title h2 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  text-transform: lowercase;
+  text-align: center;
+}
+@media screen and (max-width: 599px) {
   .hero-title h2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 40px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
-    text-transform: lowercase;
-    text-align: center; }
-    @media screen and (max-width: 599px) {
-      .hero-title h2 {
-        font-size: 25px;
-        line-height: normal;
-        text-align: left;
-        margin-left: 1rem; } }
+    font-size: 25px;
+    line-height: normal;
+    text-align: left;
+    margin-left: 1rem;
+  }
+}
 
 .links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  .links figure {
-    margin-left: 2rem;
-    width: 40px; }
-    .links figure :hover {
-      -webkit-transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+.links figure {
+  margin-left: 2rem;
+  width: 40px;
+}
+.links figure :hover {
+  -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      -webkit-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
-    .links figure img {
-      width: 100%; }
-    @media screen and (max-width: 599px) {
-      .links figure {
-        -webkit-box-pack: start;
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.links figure img {
+  width: 100%;
+}
+@media screen and (max-width: 599px) {
+  .links figure {
+    -webkit-box-pack: start;
         -ms-flex-pack: start;
-        justify-content: start;
-        width: 30px; } }
+            justify-content: start;
+    width: 30px;
+  }
+}
 
 .servicios-bg {
   background: #0f100d;
-  padding-top: 5rem; }
-  .servicios-bg .blurb {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 4rem 0;
-    border-top: solid rgba(245, 245, 220, 0.452);
-    border-bottom: solid rgba(245, 245, 220, 0.452); }
+  padding-top: 5rem;
+}
+.servicios-bg .blurb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4rem 0;
+  border-top: solid rgba(245, 245, 220, 0.452);
+  border-bottom: solid rgba(245, 245, 220, 0.452);
+}
+.servicios-bg .figure {
+  width: 50%;
+}
+@media screen and (max-width: 599px) {
   .servicios-bg .figure {
-    width: 50%; }
-    @media screen and (max-width: 599px) {
-      .servicios-bg .figure {
-        width: 90%;
-        margin: 5rem 0; } }
-    .servicios-bg .figure svg {
-      width: 70%; }
-      @media screen and (max-width: 599px) {
-        .servicios-bg .figure svg {
-          width: 100%; } }
+    width: 90%;
+    margin: 5rem 0;
+  }
+}
+.servicios-bg .figure svg {
+  width: 70%;
+}
+@media screen and (max-width: 599px) {
+  .servicios-bg .figure svg {
+    width: 100%;
+  }
+}
+.servicios-bg .blurb-text {
+  width: 40%;
+}
+@media screen and (max-width: 599px) {
   .servicios-bg .blurb-text {
-    width: 40%; }
-    @media screen and (max-width: 599px) {
-      .servicios-bg .blurb-text {
-        width: 100%; } }
-    .servicios-bg .blurb-text h2 {
-      font-family: 'Yeseva One';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 30px;
-      line-height: 41px;
-      letter-spacing: -0.02em;
-      text-transform: lowercase;
-      color: #E5E5E5;
-      text-transform: uppercase; }
-    .servicios-bg .blurb-text p {
-      font-family: 'Work Sans';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      line-height: 45px;
-      color: #e1e1e0;
-      margin-top: 1rem; }
-
-.subtitulo {
-  font-family: 'Yeseva One';
+    width: 100%;
+  }
+}
+.servicios-bg .blurb-text h2 {
+  font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -163,75 +173,117 @@
   text-transform: lowercase;
   color: #E5E5E5;
   text-transform: uppercase;
-  padding: 1rem 0; }
+}
+.servicios-bg .blurb-text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 45px;
+  color: #e1e1e0;
+  margin-top: 1rem;
+}
+
+.subtitulo {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+  color: #E5E5E5;
+  text-transform: uppercase;
+  padding: 1rem 0;
+}
 
 #marcas {
   background: #0f100d;
-  padding: 5rem 0; }
-  #marcas .brands {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    #marcas .brands .row1 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
+  padding: 5rem 0;
+}
+#marcas .brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      width: 100%;
-      margin: auto;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center; }
-    #marcas .brands .row2 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
+}
+#marcas .brands .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-      width: 100%;
-      margin: auto;
-      -webkit-box-pack: center;
+  width: 100%;
+  margin: auto;
+  -webkit-box-pack: center;
       -ms-flex-pack: center;
-      justify-content: center; }
-    #marcas .brands figure {
-      width: 150px;
-      margin: 4rem; }
-      #marcas .brands figure img {
-        border-radius: 100%;
-        width: 100%;
-        -webkit-box-shadow: #0f100d;
-        box-shadow: #0f100d; }
+          justify-content: center;
+}
+#marcas .brands .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#marcas .brands figure {
+  width: 150px;
+  margin: 4rem;
+}
+#marcas .brands figure img {
+  border-radius: 100%;
+  width: 100%;
+  -webkit-box-shadow: #0f100d;
+          box-shadow: #0f100d;
+}
 
 #trabajos {
   background: #0f100d;
-  padding: 5rem 0; }
+  padding: 5rem 0;
+}
 
 .videos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin: 8rem 0; }
-  @media screen and (max-width: 599px) {
-    .videos span {
-      margin: 4rem 0; } }
-
+      flex-wrap: wrap;
+  width: 100%;
+}
+.videos span {
+  width: 33.33%;
+}
+@media screen and (max-width: 599px) {
+  .videos span {
+    width: 100%;
+  }
+}
+.videos span img {
+  width: 100%;
+  min-width: 200px;
+  display: block;
+}
+.videos .miprimeramor {
+  height: 100%;
+}
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-body {
-  overflow-x: hidden; }
+body html {
+  overflow-x: hidden;
+}
 
 .container {
   width: 90%;
-  margin: auto; }
+  margin: auto;
+}
