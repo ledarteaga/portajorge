@@ -64,8 +64,7 @@
   .hero-title h1 {
     font-size: 30px;
     line-height: normal;
-    text-align: left;
-    margin-left: 1rem;
+    text-align: center;
   }
 }
 .hero-title h2 {
@@ -84,8 +83,7 @@
   .hero-title h2 {
     font-size: 25px;
     line-height: normal;
-    text-align: left;
-    margin-left: 1rem;
+    text-align: center;
   }
 }
 
@@ -93,16 +91,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  width: 30%;
+  margin: auto;
 }
 .links figure {
-  margin-left: 2rem;
-  width: 40px;
+  width: 4rem;
 }
 .links figure :hover {
   -webkit-transform: scale(1.1);
@@ -112,15 +111,17 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.links figure img {
-  width: 100%;
+.links figure svg {
+  fill: whitesmoke;
+}
+@media screen and (max-width: 599px) {
+  .links figure svg {
+    width: 50px;
+  }
 }
 @media screen and (max-width: 599px) {
   .links figure {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-    width: 30px;
+    margin: 0 1rem;
   }
 }
 
@@ -284,7 +285,6 @@ body html {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 
 .container {
