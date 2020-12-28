@@ -1,34 +1,110 @@
 #trabajos {
-    background: #0f100d;
+    background:#EFEFEF;
     padding: 5rem 0;
+
+     
 }
+
+ 
 
 .videos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin: 3rem 0;
 
     span {
         width: 33.33%;
+        min-width: 200px;
+        min-height: 266px;
+        max-height: 266px;
+        
+        
 
         @include xs {
             width: 100%;
         }
 
+         .cover{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
          img{
              width: 100%;
              min-width: 200px;
-             display: block;
+             min-height: 266px;
+             max-height: 266px;
+             vertical-align: top;
+
+
+             @include xs {
+                 max-height: max-content;
+             }
              
          }
     }
 
+    .roche1 {
+        background-image: url(/media/1dejunio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;    
+    }
+
+    .roche2 {
+        background-image: url(/media/5dejunio.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .roche3 {
+        background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .roche4 {
+        background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .roche5 {
+        background-image: url(/media/roche_post.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .roche6 {
+        background-image: url(/media/roche_propuesta_cancer_mama_1.png);
+        background-position: tcenterp;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .vitac1 {
+        background-image: url(/media/VITAC-post_dic-naranja1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .vitac2 {
+        background-image: url(/media/VITAC-post_dic-playa.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+
 
     .miprimeramor {height: 100%;}
 
-    @include xs {
-        span {
-            
-        }
-    }
 }

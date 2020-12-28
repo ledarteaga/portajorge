@@ -1,5 +1,5 @@
 .hero-bg {
-  background-image: url(../../media/gif.gif);
+  background: #0C66FE;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -30,10 +30,10 @@
   transition: all 0.3s ease;
 }
 .navbar nav a {
-  font-family: "Yeseva One";
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 13px;
   letter-spacing: -0.02em;
   color: #E5E5E5;
@@ -50,14 +50,14 @@
 }
 .hero-title h1 {
   padding-bottom: 0.3rem;
-  font-family: "Yeseva One";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 80px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #FF0A0A;
+  color: #111111;
   text-align: center;
 }
 @media screen and (max-width: 599px) {
@@ -68,7 +68,7 @@
   }
 }
 .hero-title h2 {
-  font-family: Yeseva One;
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
@@ -126,7 +126,7 @@
 }
 
 .servicios-bg {
-  background: #0f100d;
+  background: #FE2B1D;
   padding-top: 5rem;
 }
 .servicios-bg .blurb {
@@ -136,8 +136,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 4rem 0;
-  border-top: solid rgba(245, 245, 220, 0.452);
-  border-bottom: solid rgba(245, 245, 220, 0.452);
 }
 .servicios-bg .figure {
   width: 50%;
@@ -149,7 +147,8 @@
   }
 }
 .servicios-bg .figure svg {
-  width: 70%;
+  width: 100%;
+  fill: whitesmoke;
 }
 @media screen and (max-width: 599px) {
   .servicios-bg .figure svg {
@@ -157,7 +156,9 @@
   }
 }
 .servicios-bg .blurb-text {
-  width: 40%;
+  width: 50%;
+  margin: auto;
+  padding: 0 3rem;
 }
 @media screen and (max-width: 599px) {
   .servicios-bg .blurb-text {
@@ -165,42 +166,48 @@
   }
 }
 .servicios-bg .blurb-text h2 {
-  font-family: "Yeseva One";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.02em;
   text-transform: lowercase;
-  color: #E5E5E5;
+  text-align: center;
+  padding: 4rem 0;
+  color: #080808;
   text-transform: uppercase;
+  text-align: left;
 }
 .servicios-bg .blurb-text p {
-  font-family: "Work Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 45px;
-  color: #e1e1e0;
+  color: white;
   margin-top: 1rem;
+  text-transform: uppercase;
 }
 
 .subtitulo {
-  font-family: "Yeseva One";
+  font-family: "Kanit", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.02em;
   text-transform: lowercase;
-  color: #E5E5E5;
+  text-align: center;
+  padding: 4rem 0;
+  color: #080808;
   text-transform: uppercase;
-  padding: 1rem 0;
+  padding: 4rem 0;
+  text-align: center;
 }
 
 #marcas {
-  background: #0f100d;
-  padding: 5rem 0;
+  background: #EFEFEF;
 }
 #marcas .brands {
   display: -webkit-box;
@@ -245,7 +252,7 @@
 }
 
 #trabajos {
-  background: #0f100d;
+  background: #EFEFEF;
   padding: 5rem 0;
 }
 
@@ -256,23 +263,90 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  margin: 3rem 0;
 }
 .videos span {
   width: 33.33%;
+  min-width: 200px;
+  min-height: 266px;
+  max-height: 266px;
 }
 @media screen and (max-width: 599px) {
   .videos span {
     width: 100%;
   }
 }
+.videos span .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
 .videos span img {
   width: 100%;
   min-width: 200px;
-  display: block;
+  min-height: 266px;
+  max-height: 266px;
+  vertical-align: top;
+}
+@media screen and (max-width: 599px) {
+  .videos span img {
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content;
+  }
+}
+.videos .roche1 {
+  background-image: url(/media/1dejunio.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .roche2 {
+  background-image: url(/media/5dejunio.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .roche3 {
+  background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .roche4 {
+  background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .roche5 {
+  background-image: url(/media/roche_post.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .roche6 {
+  background-image: url(/media/roche_propuesta_cancer_mama_1.png);
+  background-position: tcenterp;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .vitac1 {
+  background-image: url(/media/VITAC-post_dic-naranja1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .vitac2 {
+  background-image: url(/media/VITAC-post_dic-playa.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .videos .miprimeramor {
   height: 100%;
 }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

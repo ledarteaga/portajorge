@@ -1,14 +1,12 @@
 .servicios-bg {
-    background: #0f100d;
+    background: #FE2B1D;
     padding-top: 5rem;
 
      .blurb {
          display: flex;
          flex-wrap: wrap;
          padding: 4rem 0;
-         border-top: solid rgba(245, 245, 220, 0.452);
-         border-bottom: solid rgba(245, 245, 220, 0.452);
-        
+         
      }
 
      .figure {
@@ -21,7 +19,8 @@
         }
 
          svg {
-             width: 70%;
+             width: 100%;
+             fill: whitesmoke;
 
              @include xs {
                  width: 100%;
@@ -33,7 +32,9 @@
 
      .blurb-text{
          
-         width: 40%;
+         width: 50%;
+         margin: auto;
+         padding: 0 3rem;
 
          @include xs {
              width: 100%;
@@ -43,13 +44,15 @@
           h2{
               @include subtitle-fonts;
               text-transform: uppercase;
+              text-align: left
           }
 
           p{
               @include body-fonts;
               
-              color: hsl(60, 2%, 88%);
+              color: white;
               margin-top: 1rem;
+              text-transform: uppercase;
               
           }
      }
