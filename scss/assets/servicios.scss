@@ -13,11 +13,6 @@
 
         width: 50%;
 
-        @include xs {
-            width: 90%;
-            margin: 5rem 0;
-        }
-
          svg {
              width: 100%;
              fill: whitesmoke;

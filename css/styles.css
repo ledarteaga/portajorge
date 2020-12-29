@@ -253,7 +253,6 @@
 
 #trabajos {
   background: #EFEFEF;
-  padding: 5rem 0;
 }
 
 .videos {
@@ -263,7 +262,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  margin: 3rem 0;
 }
 .videos span {
   width: 33.33%;
@@ -278,18 +276,10 @@
 }
 .videos span .cover {
   width: 100%;
-  height: 100%;
   position: absolute;
 }
-.videos span img {
-  width: 100%;
-  min-width: 200px;
-  min-height: 266px;
-  max-height: 266px;
-  vertical-align: top;
-}
 @media screen and (max-width: 599px) {
-  .videos span img {
+  .videos span {
     max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
@@ -327,7 +317,7 @@
 }
 .videos .roche6 {
   background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-  background-position: tcenterp;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -339,6 +329,12 @@
 }
 .videos .vitac2 {
   background-image: url(/media/VITAC-post_dic-playa.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.videos .discover {
+  background-image: url(/media/discover.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

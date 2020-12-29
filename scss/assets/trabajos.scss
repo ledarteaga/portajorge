@@ -31,13 +31,7 @@
             position: absolute;
         }
 
-         img{
-             width: 100%;
-             min-width: 200px;
-             min-height: 266px;
-             max-height: 266px;
-             vertical-align: top;
-
+         
 
              @include xs {
                  max-height: max-content;
@@ -83,7 +77,7 @@
 
     .roche6 {
         background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-        background-position: tcenterp;
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -97,6 +91,13 @@
 
     .vitac2 {
         background-image: url(/media/VITAC-post_dic-playa.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .discover {
+        background-image: url(/media/discover_retro_loop1\ \(1\).gif);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
