@@ -140,12 +140,6 @@
 .servicios-bg .figure {
   width: 50%;
 }
-@media screen and (max-width: 599px) {
-  .servicios-bg .figure {
-    width: 90%;
-    margin: 5rem 0;
-  }
-}
 .servicios-bg .figure svg {
   width: 100%;
   fill: whitesmoke;
@@ -253,6 +247,7 @@
 
 #trabajos {
   background: #EFEFEF;
+  padding: 5rem 0;
 }
 
 .videos {
@@ -262,6 +257,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  margin: 3rem 0;
 }
 .videos span {
   width: 33.33%;
@@ -269,17 +265,24 @@
   min-height: 266px;
   max-height: 266px;
 }
+.videos span img {
+  width: 100%;
+  min-width: 200px;
+  min-height: 266px;
+  max-height: 266px;
+}
 @media screen and (max-width: 599px) {
-  .videos span {
+  .videos span img {
     width: 100%;
   }
 }
 .videos span .cover {
   width: 100%;
+  height: 100%;
   position: absolute;
 }
 @media screen and (max-width: 599px) {
-  .videos span {
+  .videos span .cover {
     max-height: -webkit-max-content;
     max-height: -moz-max-content;
     max-height: max-content;
@@ -334,7 +337,6 @@
   background-repeat: no-repeat;
 }
 .videos .discover {
-  background-image: url(/media/discover.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
