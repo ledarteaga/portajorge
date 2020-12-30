@@ -10,6 +10,7 @@
 .navbar {
   padding: 2rem 0;
 }
+
 .navbar nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -20,17 +21,17 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .navbar nav :hover {
   color: #5e5e5e;
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .navbar nav a {
-  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -48,18 +49,20 @@
   margin: auto;
   padding: 180px 0;
 }
+
 .hero-title h1 {
   padding-bottom: 0.3rem;
-  font-family: "Kanit", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 80px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #111111;
+  color: #C4C4C4;
   text-align: center;
 }
+
 @media screen and (max-width: 599px) {
   .hero-title h1 {
     font-size: 30px;
@@ -67,8 +70,9 @@
     text-align: center;
   }
 }
+
 .hero-title h2 {
-  font-family: "Kanit", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
@@ -79,6 +83,7 @@
   text-transform: lowercase;
   text-align: center;
 }
+
 @media screen and (max-width: 599px) {
   .hero-title h2 {
     font-size: 25px;
@@ -95,30 +100,32 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   width: 30%;
   margin: auto;
 }
+
 .links figure {
   width: 4rem;
 }
+
 .links figure :hover {
   -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .links figure svg {
   fill: whitesmoke;
 }
+
 @media screen and (max-width: 599px) {
   .links figure svg {
     width: 50px;
   }
 }
+
 @media screen and (max-width: 599px) {
   .links figure {
     margin: 0 1rem;
@@ -129,6 +136,7 @@
   background: #131326;
   padding-top: 5rem;
 }
+
 .servicios-bg .blurb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -137,30 +145,36 @@
       flex-wrap: wrap;
   padding: 4rem 0;
 }
+
 .servicios-bg .figure {
   width: 50%;
 }
+
 .servicios-bg .figure svg {
   width: 100%;
   fill: whitesmoke;
 }
+
 @media screen and (max-width: 599px) {
   .servicios-bg .figure svg {
     width: 100%;
   }
 }
+
 .servicios-bg .blurb-text {
   width: 50%;
   margin: auto;
   padding: 0 3rem;
 }
+
 @media screen and (max-width: 599px) {
   .servicios-bg .blurb-text {
     width: 100%;
   }
 }
+
 .servicios-bg .blurb-text h2 {
-  font-family: "Kanit", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -173,8 +187,9 @@
   text-transform: uppercase;
   text-align: left;
 }
+
 .servicios-bg .blurb-text p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -185,7 +200,7 @@
 }
 
 .subtitulo {
-  font-family: "Kanit", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -203,6 +218,7 @@
 #marcas {
   background: #303440;
 }
+
 #marcas .brands {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -210,6 +226,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
 #marcas .brands .row1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -222,6 +239,7 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 #marcas .brands .row2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,10 +252,12 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
 #marcas .brands figure {
   width: 150px;
   margin: 4rem;
 }
+
 #marcas .brands figure img {
   border-radius: 100%;
   width: 100%;
@@ -259,28 +279,33 @@
   width: 100%;
   margin: 3rem 0;
 }
+
 .videos span {
   width: 33.33%;
   min-width: 200px;
   min-height: 266px;
   max-height: 266px;
 }
+
 .videos span img {
   width: 100%;
   min-width: 200px;
   min-height: 266px;
   max-height: 266px;
 }
+
 @media screen and (max-width: 599px) {
   .videos span img {
     width: 100%;
   }
 }
+
 .videos span .cover {
   width: 100%;
   height: 100%;
   position: absolute;
 }
+
 @media screen and (max-width: 599px) {
   .videos span .cover {
     max-height: -webkit-max-content;
@@ -288,59 +313,69 @@
     max-height: max-content;
   }
 }
+
 .videos .roche1 {
   background-image: url(/media/1dejunio.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .roche2 {
   background-image: url(/media/5dejunio.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .roche3 {
   background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .roche4 {
   background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .roche5 {
   background-image: url(/media/roche_post.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .roche6 {
   background-image: url(/media/roche_propuesta_cancer_mama_1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .vitac1 {
   background-image: url(/media/VITAC-post_dic-naranja1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .vitac2 {
   background-image: url(/media/VITAC-post_dic-playa.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .discover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .videos .miprimeramor {
   height: 100%;
 }
@@ -364,3 +399,4 @@ body html {
   width: 90%;
   margin: auto;
 }
+/*# sourceMappingURL=styles.css.map */

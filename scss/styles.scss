@@ -1,10 +1,10 @@
 
-@import 'fonts/fonts.scss';
+@import 'fonts/_fonts.scss';
 @import './mediaqueries.scss';
-@import 'assets/hero.scss';
-@import 'assets/servicios.scss';
-@import 'assets/marcas.scss';
-@import 'assets/trabajos.scss';
+@import 'partials/_hero.scss';
+@import 'partials/_servicios.scss';
+@import 'partials/_marcas.scss';
+@import 'partials/_trabajos.scss';
 
 
 
@@ -21,6 +21,7 @@ body html {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow: hidden;
      
 }
 
