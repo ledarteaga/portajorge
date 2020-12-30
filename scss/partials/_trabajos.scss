@@ -1,7 +1,5 @@
 #trabajos {
     background: #303440;
-
-
 }
 
 
@@ -17,6 +15,16 @@
         min-width: 200px;
         min-height: 266px;
         max-height: 266px;
+        transition: all 0.1s ease;
+       
+
+
+        
+
+        @include xs {
+            width: 100%;
+
+        }
 
         img {
             opacity: 0;
@@ -24,6 +32,12 @@
             min-height: 266px;
             max-height: 266px;
             width: 100%;
+
+            :hover {
+                box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);;
+                transition: all 0.3s ease;
+                opacity: 50%;
+            }
         }
 
 
@@ -31,104 +45,100 @@
 
     }
 
-    .miprimer-amor {
-        background-image: url(/media/miprimeramor.gif);
-        background-position: center;
+    .miprimer-amor,
+    .verano,
+    .pulsar,
+    .roche1,
+    .roche2,
+    .roche3,
+    .roche4,
+    .roche5,
+    .roche6,
+    .wuff1,
+    .wuff2,
+    .wuff3 {
+
+        background-position: center ;
         background-size: cover;
         background-repeat: no-repeat;
+        
+
+       
+
+    }
+
+
+    .miprimer-amor {
+        background-image: url(/media/miprimeramor.gif);
+
+
     }
 
     .verano {
         background-image: url(/media/verano.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .pulsar {
         background-image: url(/media/pulsar.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche1 {
         background-image: url(/media/1dejunio.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche2 {
         background-image: url(/media/5dejunio.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche3 {
         background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche4 {
         background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche5 {
         background-image: url(/media/roche_post.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .roche6 {
         background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .vitac1 {
         background-image: url(/media/VITAC-post_dic-naranja1.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .vitac2 {
         background-image: url(/media/VITAC-post_dic-playa.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
 
 
     .wuff1 {
         background-image: url(/media/wuff.gif);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .wuff2 {
         background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
     .wuff3 {
         background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
     }
 
 

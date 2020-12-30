@@ -67,7 +67,7 @@
   font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 80px;
+  font-size: 36px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -87,7 +87,7 @@
   font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 40px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -218,7 +218,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 45px;
+  line-height: 30px;
   color: white;
   margin-top: 1rem;
   text-transform: uppercase;
@@ -281,13 +281,19 @@
 #marcas .brands figure {
   width: 150px;
   margin: 4rem;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+#marcas .brands figure :hover {
+  border: #ffffff solid 5px;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 #marcas .brands figure img {
   border-radius: 100%;
   width: 100%;
-  -webkit-box-shadow: #0f100d;
-          box-shadow: #0f100d;
 }
 
 #trabajos {
@@ -309,6 +315,14 @@
   min-width: 200px;
   min-height: 266px;
   max-height: 266px;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+
+@media screen and (max-width: 599px) {
+  .videos span {
+    width: 100%;
+  }
 }
 
 .videos span img {
@@ -319,102 +333,85 @@
   width: 100%;
 }
 
-.videos .miprimer-amor {
-  background-image: url(/media/miprimeramor.gif);
+.videos span img :hover {
+  -webkit-box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
+          box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 50%;
+}
+
+.videos .miprimer-amor,
+.videos .verano,
+.videos .pulsar,
+.videos .roche1,
+.videos .roche2,
+.videos .roche3,
+.videos .roche4,
+.videos .roche5,
+.videos .roche6,
+.videos .wuff1,
+.videos .wuff2,
+.videos .wuff3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.videos .miprimer-amor {
+  background-image: url(/media/miprimeramor.gif);
 }
 
 .videos .verano {
   background-image: url(/media/verano.gif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .pulsar {
   background-image: url(/media/pulsar.gif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche1 {
   background-image: url(/media/1dejunio.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche2 {
   background-image: url(/media/5dejunio.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche3 {
   background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche4 {
   background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche5 {
   background-image: url(/media/roche_post.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .roche6 {
   background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .vitac1 {
   background-image: url(/media/VITAC-post_dic-naranja1.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .vitac2 {
   background-image: url(/media/VITAC-post_dic-playa.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .wuff1 {
   background-image: url(/media/wuff.gif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .wuff2 {
   background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .videos .wuff3 {
   background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 * {

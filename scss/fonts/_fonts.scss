@@ -10,7 +10,7 @@ letter-spacing: -0.02em;
 font-family: 'Yeseva One';
 font-style: normal;
 font-weight: normal;
-font-size: 35px;
+font-size: 30px;
 line-height: 40px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
@@ -23,7 +23,7 @@ color: #fdfdfd;
 font-family: 'Kanit', sans-serif;
 font-style: normal;
 font-weight: normal;
-font-size: 80px;
+font-size: 36px;
 line-height: 92px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
@@ -33,7 +33,7 @@ color: #C4C4C4;
 @mixin email-fonts {
 font-family: 'Kanit', sans-serif;font-style: normal;
 font-weight: normal;
-font-size: 35px;
+font-size: 30px;
 line-height: 40px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
@@ -47,7 +47,7 @@ font-family: 'Open Sans', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 45px;
+line-height: 30px;
 }
 
 @mixin subtitle-fonts {

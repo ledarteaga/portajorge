@@ -35,13 +35,20 @@
 
             width: 150px;
             margin: 4rem;
+            transition: all 0.1s ease;
+            
+
+            :hover {
+                border: #ffffff solid 5px;
+                transition: all 0.1s ease;
+            }
            
             
             
             img {
                 border-radius: 100%;
                 width: 100%;
-                box-shadow: #0f100d;
+                
             }
         }
     }
