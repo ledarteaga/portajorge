@@ -1,6 +1,5 @@
 .servicios-bg {
     background: #131326;
-    padding-top: 5rem;
 
      .blurb {
          display: flex;
@@ -13,9 +12,15 @@
 
         width: 50%;
 
+        @include xs {
+            width: 100%;
+        }
+
          svg {
              width: 100%;
-             fill: whitesmoke;
+             filter: invert(100%) sepia(0%) saturate(1628%) hue-rotate(49deg) brightness(114%) contrast(79%);
+
+
 
              @include xs {
                  width: 100%;

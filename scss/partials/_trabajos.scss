@@ -1,11 +1,10 @@
 #trabajos {
-    background:#EFEFEF;
-    padding: 5rem 0;
+    background: #303440;
 
-     
+
 }
 
- 
+
 
 .videos {
     display: flex;
@@ -18,44 +17,46 @@
         min-width: 200px;
         min-height: 266px;
         max-height: 266px;
-    
 
         img {
-            width: 100%;
+            opacity: 0;
             min-width: 200px;
             min-height: 266px;
             max-height: 266px;
-
-    
-        
-        
-
-        @include xs {
             width: 100%;
         }
 
+
+
+
     }
 
-         .cover{
-            width: 100%;
-            height: 100%;
-            position: absolute;
-        
+    .miprimer-amor {
+        background-image: url(/media/miprimeramor.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-         
+    .verano {
+        background-image: url(/media/verano.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-             @include xs {
-                 max-height: max-content;
-             }
-             
-         }
+    .pulsar {
+        background-image: url(/media/pulsar.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .roche1 {
         background-image: url(/media/1dejunio.jpg);
         background-position: center;
         background-size: cover;
-        background-repeat: no-repeat;    
+        background-repeat: no-repeat;
     }
 
     .roche2 {
@@ -107,15 +108,28 @@
         background-repeat: no-repeat;
     }
 
-    .discover {
+
+
+    .wuff1 {
+        background-image: url(/media/wuff.gif);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
+    .wuff2 {
+        background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
+    .wuff3 {
+        background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-
-    .miprimeramor {height: 100%;}
 
 }

@@ -7,6 +7,10 @@
     background-position: top;
     height: 660px;
     width: 100%;
+
+    @include xs {
+        height: 750px;
+    }
 }
 
 .navbar {
@@ -33,6 +37,10 @@
             display: flex;
             margin-left: 11px;
             text-decoration: none;
+
+             @include xs {
+                 font-size: 20px;
+             }
 
 
             
@@ -81,7 +89,12 @@
     justify-content: space-between;
     transition: all 0.3s ease;
     width: 30%;
-    margin: auto;   
+    margin: auto; 
+    
+    @include xs {
+        width: 70%;
+        margin: auto;
+    }
 
 
    

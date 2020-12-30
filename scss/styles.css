@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 599px) {
+  .hero-bg {
+    height: 750px;
+  }
+}
+
 .navbar {
   padding: 2rem 0;
 }
@@ -43,6 +49,12 @@
   display: flex;
   margin-left: 11px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 599px) {
+  .navbar nav a {
+    font-size: 20px;
+  }
 }
 
 .hero-title {
@@ -105,6 +117,13 @@
   margin: auto;
 }
 
+@media screen and (max-width: 599px) {
+  .links {
+    width: 70%;
+    margin: auto;
+  }
+}
+
 .links figure {
   width: 4rem;
 }
@@ -134,7 +153,6 @@
 
 .servicios-bg {
   background: #131326;
-  padding-top: 5rem;
 }
 
 .servicios-bg .blurb {
@@ -150,9 +168,16 @@
   width: 50%;
 }
 
+@media screen and (max-width: 599px) {
+  .servicios-bg .figure {
+    width: 100%;
+  }
+}
+
 .servicios-bg .figure svg {
   width: 100%;
-  fill: whitesmoke;
+  -webkit-filter: invert(100%) sepia(0%) saturate(1628%) hue-rotate(49deg) brightness(114%) contrast(79%);
+          filter: invert(100%) sepia(0%) saturate(1628%) hue-rotate(49deg) brightness(114%) contrast(79%);
 }
 
 @media screen and (max-width: 599px) {
@@ -183,7 +208,7 @@
   text-transform: lowercase;
   text-align: center;
   padding: 4rem 0;
-  color: #080808;
+  color: #f7f7f7;
   text-transform: uppercase;
   text-align: left;
 }
@@ -209,7 +234,7 @@
   text-transform: lowercase;
   text-align: center;
   padding: 4rem 0;
-  color: #080808;
+  color: #f7f7f7;
   text-transform: uppercase;
   padding: 4rem 0;
   text-align: center;
@@ -266,8 +291,7 @@
 }
 
 #trabajos {
-  background: #EFEFEF;
-  padding: 5rem 0;
+  background: #303440;
 }
 
 .videos {
@@ -288,30 +312,32 @@
 }
 
 .videos span img {
-  width: 100%;
+  opacity: 0;
   min-width: 200px;
   min-height: 266px;
   max-height: 266px;
-}
-
-@media screen and (max-width: 599px) {
-  .videos span img {
-    width: 100%;
-  }
-}
-
-.videos span .cover {
   width: 100%;
-  height: 100%;
-  position: absolute;
 }
 
-@media screen and (max-width: 599px) {
-  .videos span .cover {
-    max-height: -webkit-max-content;
-    max-height: -moz-max-content;
-    max-height: max-content;
-  }
+.videos .miprimer-amor {
+  background-image: url(/media/miprimeramor.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.videos .verano {
+  background-image: url(/media/verano.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.videos .pulsar {
+  background-image: url(/media/pulsar.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .videos .roche1 {
@@ -370,14 +396,25 @@
   background-repeat: no-repeat;
 }
 
-.videos .discover {
+.videos .wuff1 {
+  background-image: url(/media/wuff.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.videos .miprimeramor {
-  height: 100%;
+.videos .wuff2 {
+  background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.videos .wuff3 {
+  background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 * {
