@@ -153,7 +153,7 @@
 }
 
 .servicios-bg {
-  background: #131326;
+  background: #01020A;
 }
 
 .servicios-bg .blurb {
@@ -175,14 +175,12 @@
   }
 }
 
-.servicios-bg .figure svg {
+.servicios-bg .figure img {
   width: 100%;
-  -webkit-filter: invert(100%) sepia(0%) saturate(1628%) hue-rotate(49deg) brightness(114%) contrast(79%);
-          filter: invert(100%) sepia(0%) saturate(1628%) hue-rotate(49deg) brightness(114%) contrast(79%);
 }
 
 @media screen and (max-width: 599px) {
-  .servicios-bg .figure svg {
+  .servicios-bg .figure img {
     width: 100%;
   }
 }
