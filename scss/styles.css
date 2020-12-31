@@ -1,9 +1,8 @@
 .hero-bg {
-  background: url(/media/gif.gif);
+  background: url(/media/bghero.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 660px;
   width: 100%;
 }
 
@@ -37,13 +36,15 @@
 }
 
 .navbar nav a {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: "reross-quadratic", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 13px;
   letter-spacing: -0.02em;
   color: #E5E5E5;
+  text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,20 +60,22 @@
 
 .hero-title {
   margin: auto;
-  padding: 180px 0;
+  padding: 17rem 0;
 }
 
 .hero-title h1 {
-  padding-bottom: 0.3rem;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'alfarn', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 45px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
+  font-size: 80px;
+  padding-bottom: 13px;
   text-align: center;
+  color: #d6a3c9;
 }
 
 @media screen and (max-width: 599px) {
@@ -80,19 +83,20 @@
     font-size: 30px;
     line-height: normal;
     text-align: center;
+    color: #E5E5E5;
   }
 }
 
 .hero-title h2 {
-  font-family: 'Kanit', sans-serif;
+  font-family: "reross-quadratic", sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 13px;
   letter-spacing: -0.02em;
+  color: #E5E5E5;
   text-transform: uppercase;
-  color: #C4C4C4;
-  text-transform: lowercase;
   text-align: center;
 }
 
@@ -111,8 +115,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   width: 30%;
   margin: auto;
 }
@@ -129,14 +131,13 @@
 }
 
 .links figure :hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  fill: #474747;
 }
 
 .links figure svg {
   fill: whitesmoke;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 599px) {
@@ -161,11 +162,11 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 4rem 0;
 }
 
 .servicios-bg .figure {
   width: 50%;
+  min-width: 400px;
 }
 
 @media screen and (max-width: 599px) {
@@ -189,7 +190,7 @@
 .servicios-bg .blurb-text {
   width: 50%;
   margin: auto;
-  padding: 0 3rem;
+  padding: 0 30px;
 }
 
 @media screen and (max-width: 599px) {
@@ -199,9 +200,9 @@
 }
 
 .servicios-bg .blurb-text h2 {
-  font-family: 'Kanit', sans-serif;
+  font-family: reross-quadratic, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.02em;
@@ -214,20 +215,19 @@
 }
 
 .servicios-bg .blurb-text p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: carlmarx, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: white;
-  margin-top: 1rem;
   text-transform: uppercase;
 }
 
 .subtitulo {
-  font-family: 'Kanit', sans-serif;
+  font-family: reross-quadratic, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 30px;
   line-height: 41px;
   letter-spacing: -0.02em;

@@ -1,11 +1,10 @@
 
 
 .hero-bg{
-    background: url(/media/gif.gif);
+    background: url(/media/bghero.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 660px;
     width: 100%;
 
     @include xs {
@@ -33,7 +32,6 @@
 
         a{
             @include second-font;
-            color: #E5E5E5;
             display: flex;
             margin-left: 11px;
             text-decoration: none;
@@ -55,25 +53,27 @@
 
    
     margin: auto;   
-    padding: 180px 0;
+    padding: 17rem 0;
 
      h1{
-        
-        padding-bottom: 0.3rem;
-         @include title-font;
+        @include title-font;
+        font-size: 80px;
+        padding-bottom: 13px;
          text-align: center;
+         color: #d6a3c9;
 
          @include xs {
              font-size: 30px;
              line-height: normal;
              text-align: center;
+             color: #E5E5E5;
          }
      }
 
      h2{
-         @include email-fonts;
-         text-transform: lowercase;
+         @include second-font;
          text-align: center;
+
 
          @include xs {
             font-size: 25px;
@@ -87,7 +87,6 @@
 .links{
     display: flex;
     justify-content: space-between;
-    transition: all 0.3s ease;
     width: 30%;
     margin: auto; 
     
@@ -103,16 +102,19 @@
         
         width: 4rem;
 
+
          
          
          :hover{
-             transform: scale(1.1);
-             transition: all 0.3s ease;
+             
+             fill: rgb(71, 71, 71);
          }
          
 
          svg {
              fill: whitesmoke;
+             transition: all 0.3s ease;
+
 
               @include xs {
                   width: 50px;

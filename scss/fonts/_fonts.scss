@@ -1,65 +1,69 @@
 @mixin second-font {
-font-family: 'Yanone Kaffeesatz', sans-serif;font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 13px;
-letter-spacing: -0.02em;
+    font-family: "reross-quadratic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+    text-transform: uppercase;
 }
 
 @mixin regular-font {
-font-family: 'Yeseva One';
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 
-color: #fdfdfd;
+    color: #fdfdfd;
 
 }
 
 @mixin title-font {
-font-family: 'Kanit', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 92px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #C4C4C4;
+    font-family: 'alfarn', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 92px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
 }
 
 @mixin email-fonts {
-font-family: 'Kanit', sans-serif;font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
+    font-family: 'alfarn', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
 
-color: #C4C4C4;
+    color: #C4C4C4;
 
 }
 
 @mixin body-fonts {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
+    font-family: carlmarx, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 @mixin subtitle-fonts {
-    font-family: 'Kanit', sans-serif;
+    font-family: reross-quadratic, sans-serif;
+    font-weight: 400;
     font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 41px;
-letter-spacing: -0.02em;
-text-transform: lowercase;
-text-align: center;
-padding: 4rem 0;
 
-color: #f7f7f7
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 4rem 0;
+    color: #f7f7f7;
 }

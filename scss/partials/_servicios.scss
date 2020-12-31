@@ -3,14 +3,13 @@
 
      .blurb {
          display: flex;
-         flex-wrap: wrap;
-         padding: 4rem 0;
-         
+         flex-wrap: wrap;         
      }
 
      .figure {
 
         width: 50%;
+        min-width: 400px;
 
         @include xs {
             width: 100%;
@@ -34,7 +33,7 @@
          
          width: 50%;
          margin: auto;
-         padding: 0 3rem;
+         padding: 0 30px;
 
          @include xs {
              width: 100%;
@@ -51,7 +50,6 @@
               @include body-fonts;
               
               color: white;
-              margin-top: 1rem;
               text-transform: uppercase;
               
           }
