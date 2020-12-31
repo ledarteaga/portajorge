@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Outrunfuture-Bold';
+  src: url('Outrunfuture-Bold.eot');
+  src: url('Outrunfuture-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Outrunfuture-Bold.svg#Outrunfuture-Bold') format('svg'),
+       url('Outrunfuture-Bold.ttf') format('truetype'),
+       url('Outrunfuture-Bold.woff') format('woff'),
+       url('Outrunfuture-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

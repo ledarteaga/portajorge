@@ -4,6 +4,7 @@ font-weight: normal;
 font-size: 25px;
 line-height: 13px;
 letter-spacing: -0.02em;
+color: #f7f7f7;
 }
 
 @mixin regular-font {
@@ -63,3 +64,15 @@ padding: 4rem 0;
 
 color: #f7f7f7
 }
+
+    @font-face {
+        font-family: 'Outrunfuture-Bold';
+        src: url('outrun-future/Outrunfuture-Bold.eot');
+        src: url('outrun-future/Outrunfuture-Bold.eot?#iefix') format('embedded-opentype'),
+             url('outrun-future/Outrunfuture-Bold.svg#Outrunfuture-Bold') format('svg'),
+             url('outrun-future/Outrunfuture-Bold.ttf') format('truetype'),
+             url('outrun-future/Outrunfuture-Bold.woff') format('woff'),
+             url('outrun-future/Outrunfuture-Bold.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Outrunfuture-Bold';
+  src: url("outrun-future/Outrunfuture-Bold.eot");
+  src: url("outrun-future/Outrunfuture-Bold.eot?#iefix") format("embedded-opentype"), url("outrun-future/Outrunfuture-Bold.svg#Outrunfuture-Bold") format("svg"), url("outrun-future/Outrunfuture-Bold.ttf") format("truetype"), url("outrun-future/Outrunfuture-Bold.woff") format("woff"), url("outrun-future/Outrunfuture-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .hero-bg {
   background: url(/media/gif.gif);
   background-repeat: no-repeat;
@@ -43,12 +51,12 @@
   font-size: 25px;
   line-height: 13px;
   letter-spacing: -0.02em;
-  color: #E5E5E5;
+  color: #f7f7f7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 11px;
   text-decoration: none;
+  margin: 0 10px;
 }
 
 @media screen and (max-width: 599px) {
@@ -63,15 +71,9 @@
 }
 
 .hero-title h1 {
+  font-family: "Outrunfuture-Bold";
+  color: ivory;
   padding-bottom: 0.3rem;
-  font-family: 'Kanit', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 92px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #C4C4C4;
   text-align: center;
 }
 
@@ -111,8 +113,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   width: 30%;
   margin: auto;
 }
@@ -125,12 +125,13 @@
 }
 
 .links figure {
-  width: 4rem;
+  width: 3rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .links figure :hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  fill: #5e5e5e;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }

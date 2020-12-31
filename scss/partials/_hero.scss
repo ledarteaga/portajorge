@@ -33,10 +33,9 @@
 
         a{
             @include second-font;
-            color: #E5E5E5;
             display: flex;
-            margin-left: 11px;
             text-decoration: none;
+            margin: 0 10px;
 
              @include xs {
                  font-size: 20px;
@@ -58,9 +57,9 @@
     padding: 180px 0;
 
      h1{
-        
+        font-family: "Outrunfuture-Bold";
+        color: ivory;
         padding-bottom: 0.3rem;
-         @include title-font;
          text-align: center;
 
          @include xs {
@@ -87,7 +86,6 @@
 .links{
     display: flex;
     justify-content: space-between;
-    transition: all 0.3s ease;
     width: 30%;
     margin: auto; 
     
@@ -101,12 +99,13 @@
 
      figure {
         
-        width: 4rem;
+        width: 3rem;
+        transition: all 0.3s ease;
 
          
          
          :hover{
-             transform: scale(1.1);
+             fill: #5e5e5e;
              transition: all 0.3s ease;
          }
          
