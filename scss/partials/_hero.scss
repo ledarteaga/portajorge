@@ -1,7 +1,7 @@
 
 
 .hero-bg{
-    background: url(/media/bghero.gif);
+    background: url(/media/gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -26,7 +26,7 @@
         transition: all 0.3s ease;
 
         :hover{
-            color: #5e5e5e;
+            color: #db0000;
             transition: all 0.3s ease;
         }
 
@@ -60,13 +60,10 @@
         font-size: 80px;
         padding-bottom: 13px;
          text-align: center;
-         color: #d6a3c9;
 
          @include xs {
              font-size: 30px;
              line-height: normal;
-             text-align: center;
-             color: #E5E5E5;
          }
      }
 
@@ -107,7 +104,8 @@
          
          :hover{
              
-             fill: rgb(71, 71, 71);
+            
+             fill: rgb(206, 0, 0);
          }
          
 

@@ -1,5 +1,5 @@
 .hero-bg {
-  background: url(/media/bghero.gif);
+  background: url(/media/gif.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -30,13 +30,13 @@
 }
 
 .navbar nav :hover {
-  color: #5e5e5e;
+  color: #db0000;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .navbar nav a {
-  font-family: "reross-quadratic", sans-serif;
+  font-family: 'Yeseva One';
   font-weight: 400;
   font-style: normal;
   font-weight: normal;
@@ -64,31 +64,28 @@
 }
 
 .hero-title h1 {
-  font-family: 'alfarn', sans-serif;
+  font-family: 'Yeseva One';
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #C4C4C4;
+  color: #db0000;
   font-size: 80px;
   padding-bottom: 13px;
   text-align: center;
-  color: #d6a3c9;
 }
 
 @media screen and (max-width: 599px) {
   .hero-title h1 {
     font-size: 30px;
     line-height: normal;
-    text-align: center;
-    color: #E5E5E5;
   }
 }
 
 .hero-title h2 {
-  font-family: "reross-quadratic", sans-serif;
+  font-family: 'Yeseva One';
   font-weight: 400;
   font-style: normal;
   font-weight: normal;
@@ -131,7 +128,7 @@
 }
 
 .links figure :hover {
-  fill: #474747;
+  fill: #ce0000;
 }
 
 .links figure svg {
@@ -198,12 +195,12 @@
 }
 
 .servicios-bg .blurb-text h2 {
-  font-family: reross-quadratic, sans-serif;
+  font-family: 'Yeseva One';
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.10em;
   text-transform: lowercase;
   text-align: center;
   padding: 4rem 0;
@@ -223,12 +220,12 @@
 }
 
 .subtitulo {
-  font-family: reross-quadratic, sans-serif;
+  font-family: 'Yeseva One';
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.10em;
   text-transform: lowercase;
   text-align: center;
   padding: 4rem 0;
@@ -239,7 +236,7 @@
 }
 
 #marcas {
-  background: #303440;
+  background: #01020A;
 }
 
 #marcas .brands {
@@ -283,19 +280,13 @@
   transition: all 0.1s ease;
 }
 
-#marcas .brands figure :hover {
-  border: #ffffff solid 5px;
-  -webkit-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-}
-
 #marcas .brands figure img {
   border-radius: 100%;
   width: 100%;
 }
 
 #trabajos {
-  background: #303440;
+  background: #01020A;
 }
 
 .videos {
@@ -409,6 +400,62 @@
 
 .videos .wuff3 {
   background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
+}
+
+#contacto {
+  background: #303440;
+}
+
+.contacto-texto {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 300px 0;
+}
+
+.contacto-texto h2 {
+  font-family: 'Yeseva One';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.10em;
+  text-transform: lowercase;
+  text-align: center;
+  padding: 4rem 0;
+  color: #f7f7f7;
+}
+
+.contacto-texto a {
+  font-family: 'Yeseva One';
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contacto-texto a :hover {
+  color: #ce0000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+footer {
+  background: #000000;
+  text-align: center;
+  color: white;
+  font-family: carlmarx, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  font-size: 16px;
 }
 
 * {
