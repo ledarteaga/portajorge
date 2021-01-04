@@ -8,7 +8,7 @@
     width: 100%;
 
     @include xs {
-        height: 750px;
+        
     }
 }
 
@@ -37,7 +37,7 @@
             text-decoration: none;
 
              @include xs {
-                 font-size: 20px;
+                 font-size: 13px;
              }
 
 
@@ -85,7 +85,8 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
-    margin: auto; 
+    margin: auto;
+    padding-bottom: 5px; 
     
     @include xs {
         width: 70%;

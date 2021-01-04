@@ -1,5 +1,5 @@
 #contacto {
-    background: ##131326;
+    background: #131326;
 }
 
 .contacto-texto {
@@ -16,6 +16,10 @@
         @include email-fonts;
         transition: all 0.3s ease;
         text-decoration: none;
+
+        @include xs {
+            font-size: 21px;
+        }
 
 
 
