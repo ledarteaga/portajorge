@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: top;
   width: 100%;
+  height: 765px;
 }
 
 .navbar {
@@ -11,21 +12,14 @@
 }
 
 .navbar nav {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-transition: all 0.3s ease;
+  flex-wrap: nowrap;
   transition: all 0.3s ease;
 }
 
 .navbar nav :hover {
   color: #db0000;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -39,10 +33,8 @@
   letter-spacing: -0.02em;
   color: #E5E5E5;
   text-transform: uppercase;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  margin-left: 11px;
+  margin: 0 60px;
   text-decoration: none;
 }
 
@@ -53,8 +45,7 @@
 }
 
 .hero-title {
-  margin: auto;
-  padding: 17rem 0;
+  margin: 228px auto 250px auto;
 }
 
 .hero-title h1 {
@@ -100,13 +91,9 @@
 }
 
 .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 30%;
+  justify-content: center;
+  width: 296px;
   margin: auto;
   padding-bottom: 5px;
 }
@@ -119,7 +106,8 @@
 }
 
 .links figure {
-  width: 4rem;
+  width: 52px;
+  margin: 0 70px;
 }
 
 .links figure :hover {
@@ -128,7 +116,6 @@
 
 .links figure svg {
   fill: whitesmoke;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -149,11 +136,8 @@
 }
 
 .servicios-bg .blurb {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .servicios-bg .figure {
@@ -232,47 +216,33 @@
 }
 
 #marcas {
-  background: #01020A;
+  background: #100F0D;
 }
 
 #marcas .brands {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #marcas .brands .row1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #marcas .brands .row2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #marcas .brands figure {
   width: 150px;
   margin: 4rem;
-  -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
 }
 
@@ -282,24 +252,21 @@
 }
 
 #trabajos {
-  background: #01020A;
+  background: #100F0D;
 }
 
 .videos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .videos span {
-  width: 33.33%;
-  min-width: 200px;
-  min-height: 266px;
-  max-height: 266px;
-  -webkit-transition: all 0.1s ease;
+  width: 389px;
+  min-height: 279px;
+  max-height: 279px;
+  margin: 106px 40px;
   transition: all 0.1s ease;
 }
 
@@ -318,9 +285,7 @@
 }
 
 .videos span img :hover {
-  -webkit-box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
-          box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
-  -webkit-transition: all 0.3s ease;
+  box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
   transition: all 0.3s ease;
   opacity: 50%;
 }
@@ -328,18 +293,14 @@
 .videos .miprimer-amor,
 .videos .verano,
 .videos .pulsar,
-.videos .roche1,
-.videos .roche2,
-.videos .roche3,
-.videos .roche4,
-.videos .roche5,
-.videos .roche6,
 .videos .wuff1,
-.videos .wuff2,
-.videos .wuff3 {
+.videos .esenciales,
+.videos .roche {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  opacity: 0.7;
 }
 
 .videos .miprimer-amor {
@@ -354,48 +315,16 @@
   background-image: url(/media/pulsar.gif);
 }
 
-.videos .roche1 {
-  background-image: url(/media/1dejunio.jpg);
+.videos .esenciales {
+  background-image: url(/media/vitac.gif);
 }
 
-.videos .roche2 {
-  background-image: url(/media/5dejunio.jpg);
-}
-
-.videos .roche3 {
-  background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
-}
-
-.videos .roche4 {
-  background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
-}
-
-.videos .roche5 {
-  background-image: url(/media/roche_post.png);
-}
-
-.videos .roche6 {
-  background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-}
-
-.videos .vitac1 {
-  background-image: url(/media/VITAC-post_dic-naranja1.png);
-}
-
-.videos .vitac2 {
-  background-image: url(/media/VITAC-post_dic-playa.png);
+.videos .roche {
+  background-image: url(/media/roche.png);
 }
 
 .videos .wuff1 {
   background-image: url(/media/wuff.gif);
-}
-
-.videos .wuff2 {
-  background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
-}
-
-.videos .wuff3 {
-  background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
 }
 
 #contacto {
@@ -404,9 +333,7 @@
 
 .contacto-texto {
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 300px 0;
 }
 
@@ -431,7 +358,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-decoration: none;
 }
@@ -444,7 +370,6 @@
 
 .contacto-texto a :hover {
   color: #ce0000;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -461,8 +386,7 @@ footer {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -479,4 +403,3 @@ body, html {
   width: 90%;
   margin: auto;
 }
-/*# sourceMappingURL=styles.css.map */

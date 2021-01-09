@@ -6,11 +6,9 @@
     background-size: cover;
     background-position: top;
     width: 100%;
-
-    @include xs {
-        
-    }
+    height: 765px;
 }
+  
 
 .navbar {
 
@@ -33,7 +31,7 @@
         a{
             @include second-font;
             display: flex;
-            margin-left: 11px;
+            margin: 0 60<px;
             text-decoration: none;
 
              @include xs {
@@ -52,8 +50,8 @@
 
 
    
-    margin: auto;   
-    padding: 17rem 0;
+    margin: 228px auto 250px auto;
+       
 
      h1{
         @include title-font;
@@ -83,8 +81,8 @@
 
 .links{
     display: flex;
-    justify-content: space-between;
-    width: 30%;
+    justify-content: center;
+    width: 296px;
     margin: auto;
     padding-bottom: 5px; 
     
@@ -98,7 +96,8 @@
 
      figure {
         
-        width: 4rem;
+        width: 52px;
+        margin: 0 70px;
 
 
          

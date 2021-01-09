@@ -1,5 +1,5 @@
 #trabajos {
-    background: #01020A;
+    background: #100F0D;
 }
 
 
@@ -7,13 +7,15 @@
 .videos {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+
 
     span {
-        width: 33.33%;
-        min-width: 200px;
-        min-height: 266px;
-        max-height: 266px;
+        width: 389px;
+        min-height: 279px;
+        max-height: 279px;
+        margin: 106px 40px;
         transition: all 0.1s ease;
 
 
@@ -48,19 +50,16 @@
     .miprimer-amor,
     .verano,
     .pulsar,
-    .roche1,
-    .roche2,
-    .roche3,
-    .roche4,
-    .roche5,
-    .roche6,
     .wuff1,
-    .wuff2,
-    .wuff3 {
+    .esenciales,
+    .roche {
+
 
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        mix-blend-mode: normal;
+        opacity: 0.7;
 
 
 
@@ -84,43 +83,13 @@
 
     }
 
-    .roche1 {
-        background-image: url(/media/1dejunio.jpg);
-
+    .esenciales {
+        background-image: url(/media/vitac.gif);
     }
+    
 
-    .roche2 {
-        background-image: url(/media/5dejunio.jpg);
-
-    }
-
-    .roche3 {
-        background-image: url(/media/POGGI-post_abr-mascarilla-polaroid-esque_1.png);
-
-    }
-
-    .roche4 {
-        background-image: url(/media/Roche_post_pulmon_1_linkedin.png);
-
-    }
-
-    .roche5 {
-        background-image: url(/media/roche_post.png);
-
-    }
-
-    .roche6 {
-        background-image: url(/media/roche_propuesta_cancer_mama_1.png);
-
-    }
-
-    .vitac1 {
-        background-image: url(/media/VITAC-post_dic-naranja1.png);
-
-    }
-
-    .vitac2 {
-        background-image: url(/media/VITAC-post_dic-playa.png);
+    .roche {
+        background-image: url(/media/roche.png);
 
     }
 
@@ -131,15 +100,7 @@
 
     }
 
-    .wuff2 {
-        background-image: url(/media/2019_11_WUF_OFICINA_12.jpg);
-
-    }
-
-    .wuff3 {
-        background-image: url(/media/2019_11_WUF_OFICINA_20.jpg);
-
-    }
+  
 
 
 }
