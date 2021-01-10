@@ -12,6 +12,10 @@
     h2 {
         @include subtitleFont;
         font-size: 30px;
+
+         @include xs {
+             font-size: 17px;
+         }
     }
 
     .email {
@@ -40,6 +44,10 @@
     margin: 30px auto;
     transition: all 0.3s ease-in-out;
 
+    @include xs {
+        width: 180px;
+    }
+
     :hover {
         background-color: rgb(27, 42, 83);
         transition: all 0.3s ease-in-out;
@@ -56,6 +64,10 @@
          p {
              @include subtitleFont;
              font-size: 20px;
+
+              @include xs {
+                  font-size: 15px;
+              }
          }
      }
 }

@@ -48,8 +48,20 @@
   }
 }
 
+@media screen and (max-width: 599px) {
+  .navbar nav a {
+    margin: 0 10px;
+  }
+}
+
 .hero-title {
   margin: 210px auto 230px auto;
+}
+
+@media screen and (max-width: 599px) {
+  .hero-title {
+    margin-left: 20px;
+  }
 }
 
 .hero-title h1 {
@@ -60,7 +72,7 @@
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #C4C4C4;
+  color: #FF0A0A;
   padding-bottom: 10px;
   text-align: center;
   color: #FF0A0A;
@@ -71,11 +83,16 @@
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 55px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
-    color: #C4C4C4;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .hero-title h1 {
+    text-align: left;
   }
 }
 
@@ -96,14 +113,13 @@
 
 @media screen and (max-width: 599px) {
   .hero-title h2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .hero-title h2 {
+    text-align: left;
   }
 }
 
@@ -207,14 +223,7 @@
 
 @media screen and (max-width: 599px) {
   .servicios-bg .blurb-text h2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
+    font-size: 30px;
   }
 }
 
@@ -246,14 +255,7 @@
 
 @media screen and (max-width: 599px) {
   .subtitulo {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
+    font-size: 30px;
   }
 }
 
@@ -315,6 +317,7 @@
 @media screen and (max-width: 599px) {
   .videos span {
     width: 100%;
+    margin: 0;
   }
 }
 
@@ -395,14 +398,13 @@
 
 @media screen and (max-width: 599px) {
   .contacto-texto h2 {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .contacto-texto h2 {
+    font-size: 17px;
   }
 }
 
@@ -418,6 +420,12 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 599px) {
+  .contacto-texto .email {
+    font-size: 20px;
+  }
+}
+
 .btn {
   background-color: rgba(31, 60, 138, 0.432);
   text-align: center;
@@ -427,6 +435,12 @@
   width: 227px;
   margin: 30px auto;
   transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 599px) {
+  .btn {
+    width: 180px;
+  }
 }
 
 .btn :hover {
@@ -453,14 +467,13 @@
 
 @media screen and (max-width: 599px) {
   .btn .btn-text p {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #C4C4C4;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .btn .btn-text p {
+    font-size: 15px;
   }
 }
 

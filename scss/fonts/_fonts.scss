@@ -32,19 +32,19 @@ font-size: 80px;
 line-height: 92px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
+color: #FF0A0A;
 
-color: #C4C4C4;
 
   @include xs {
     font-family: Yeseva One;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 55px;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     
-    color: #C4C4C4;
+
     
     
   }
@@ -64,16 +64,7 @@ text-transform: uppercase;
 color: #C4C4C4;
  
  @include xs {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    
-    color: #C4C4C4;
-    
+   font-size: 30px;
     
  }
 
@@ -105,6 +96,10 @@ letter-spacing: -0.02em;
 text-transform: uppercase;
 
 color: #C4C4C4;
+
+ @include xs {
+   font-size: 20px;
+ }
 
 
 }
