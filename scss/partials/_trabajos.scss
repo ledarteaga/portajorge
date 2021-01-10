@@ -13,8 +13,6 @@
 
     span {
         width: 389px;
-        min-height: 279px;
-        max-height: 279px;
         margin: 106px 40px;
         transition: all 0.1s ease;
 
@@ -25,22 +23,21 @@
         @include xs {
             width: 100%;
             margin: 0;
+            height: 100%;
 
         }
 
-        img {
-            opacity: 0;
-            min-width: 200px;
-            min-height: 266px;
-            max-height: 266px;
+        video {
             width: 100%;
+            height:auto;
+            max-width: 100%;
+            vertical-align: top;
 
-            :hover {
-                box-shadow: 0px 0px 5px 24px rgba(255, 0, 0, 0.48);
-                ;
-                transition: all 0.3s ease;
-                opacity: 50%;
-            }
+           @include xs {
+             margin: 0;
+             height: 100%;
+             min-height: 100%;
+           }
         }
 
 
@@ -56,9 +53,7 @@
     .roche {
 
 
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        
         mix-blend-mode: normal;
         opacity: 0.7;
 
@@ -68,39 +63,7 @@
     }
 
 
-    .miprimer-amor {
-        background-image: url(/media/miprimeramor.gif);
-
-
-    }
-
-    .verano {
-        background-image: url(/media/verano.gif);
-
-    }
-
-    .pulsar {
-        background-image: url(/media/pulsar.gif);
-
-    }
-
-    .esenciales {
-        background-image: url(/media/vitac.gif);
-    }
-    
-
-    .roche {
-        background-image: url(/media/roche.png);
-
-    }
-
-
-
-    .wuff1 {
-        background-image: url(/media/wuff.gif);
-
-    }
-
+   
   
 
 
