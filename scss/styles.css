@@ -24,15 +24,13 @@
 }
 
 .navbar nav a {
-  font-family: 'Yeseva One';
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 13px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
   letter-spacing: -0.02em;
-  color: #E5E5E5;
-  text-transform: uppercase;
+  color: #C4C4C4;
   display: flex;
   margin: 0 60px;
   text-decoration: none;
@@ -40,53 +38,72 @@
 
 @media screen and (max-width: 599px) {
   .navbar nav a {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
     font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
   }
 }
 
 .hero-title {
-  margin: 228px auto 250px auto;
+  margin: 210px auto 230px auto;
 }
 
 .hero-title h1 {
-  font-family: 'Yeseva One';
+  font-family: Yeseva One;
   font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
+  font-weight: normal;
+  font-size: 80px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #db0000;
-  font-size: 80px;
-  padding-bottom: 13px;
+  color: #C4C4C4;
+  padding-bottom: 10px;
   text-align: center;
+  color: #FF0A0A;
 }
 
 @media screen and (max-width: 599px) {
   .hero-title h1 {
-    font-size: 30px;
-    line-height: normal;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
   }
 }
 
 .hero-title h2 {
-  font-family: 'Yeseva One';
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 13px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
   letter-spacing: -0.02em;
-  color: #E5E5E5;
   text-transform: uppercase;
+  color: #C4C4C4;
   text-align: center;
+  text-transform: lowercase;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 599px) {
   .hero-title h2 {
-    font-size: 25px;
-    line-height: normal;
-    text-align: center;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
   }
 }
 
@@ -175,44 +192,69 @@
 }
 
 .servicios-bg .blurb-text h2 {
-  font-family: 'Yeseva One';
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.10em;
-  text-transform: lowercase;
-  text-align: center;
-  padding: 4rem 0;
-  color: #f7f7f7;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
   text-transform: uppercase;
   text-align: left;
 }
 
+@media screen and (max-width: 599px) {
+  .servicios-bg .blurb-text h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+  }
+}
+
 .servicios-bg .blurb-text p {
-  font-family: carlmarx, sans-serif;
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: white;
-  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 45px;
+  /* identical to box height, or 205% */
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
 }
 
 .subtitulo {
-  font-family: 'Yeseva One';
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.10em;
-  text-transform: lowercase;
-  text-align: center;
-  padding: 4rem 0;
-  color: #f7f7f7;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
   text-transform: uppercase;
   padding: 4rem 0;
   text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+  .subtitulo {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+  }
 }
 
 #marcas {
@@ -329,60 +371,111 @@
 
 #contacto {
   background: #131326;
+  height: 800px;
 }
 
 .contacto-texto {
   text-align: center;
   justify-content: center;
-  padding: 300px 0;
+  padding-top: 300px;
 }
 
 .contacto-texto h2 {
-  font-family: 'Yeseva One';
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: -0.10em;
-  text-transform: lowercase;
-  text-align: center;
-  padding: 4rem 0;
-  color: #f7f7f7;
-}
-
-.contacto-texto a {
-  font-family: 'Yeseva One';
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  transition: all 0.3s ease;
-  text-decoration: none;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 599px) {
-  .contacto-texto a {
-    font-size: 21px;
+  .contacto-texto h2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
   }
 }
 
-.contacto-texto a :hover {
-  color: #ce0000;
-  transition: all 0.3s ease;
+.contacto-texto .email {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 69px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgba(31, 60, 138, 0.432);
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  width: 227px;
+  margin: 30px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn :hover {
+  background-color: #1b2a53;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.btn .btn-text p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 599px) {
+  .btn .btn-text p {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+  }
 }
 
 footer {
   background: #000000;
   text-align: center;
-  color: white;
-  font-family: carlmarx, sans-serif;
-  font-weight: 400;
+  font-family: Work Sans;
   font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  font-size: 16px;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 45px;
+  /* identical to box height, or 205% */
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
+  font-size: 15px;
 }
 
 * {

@@ -41,16 +41,14 @@
          
 
           h2{
-              @include subtitle-fonts;
+              @include subtitleFont;
               text-transform: uppercase;
               text-align: left
           }
 
           p{
-              @include body-fonts;
+              @include bodyFont;
               
-              color: white;
-              text-transform: uppercase;
               
           }
      }

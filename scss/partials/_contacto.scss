@@ -1,46 +1,72 @@
 #contacto {
     background: #131326;
+    height: 800px;
 }
 
 .contacto-texto {
     text-align: center;
     justify-content: center;
-    padding: 300px 0;
+    padding-top: 300px;
 
-   
+
     h2 {
-        @include subtitle-fonts;
+        @include subtitleFont;
+        font-size: 30px;
     }
 
-    a {
-        @include email-fonts;
-        transition: all 0.3s ease;
+    .email {
+        @include emailFont;
         text-decoration: none;
-
-        @include xs {
-            font-size: 21px;
-        }
+       
 
 
-
-        
-        :hover {
-
-
-            color: #ce0000;
-            transition: all 0.3s ease;
-
-        }
-    
     }
+
+       
+   
+       
+    
+       
+    
 }
+
+.btn {
+    background-color: rgba(31, 60, 138, 0.432);
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 227px;
+    margin: 30px auto;
+    transition: all 0.3s ease-in-out;
+
+    :hover {
+        background-color: rgb(27, 42, 83);
+        transition: all 0.3s ease-in-out;
+
+
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+     .btn-text {
+         
+         p {
+             @include subtitleFont;
+             font-size: 20px;
+         }
+     }
+}
+
+
 
 // footer
 
 footer {
     background: #000000;
     text-align: center;
-    color: white;
-    @include body-fonts;
-    font-size: 16px;
+    @include bodyFont;
+    font-size: 15px;
 }

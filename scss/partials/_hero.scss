@@ -29,14 +29,12 @@
         }
 
         a{
-            @include second-font;
+            @include navFont;
             display: flex;
-            margin: 0 60<px;
+            margin: 0 60px;
             text-decoration: none;
 
-             @include xs {
-                 font-size: 13px;
-             }
+          
 
 
             
@@ -50,31 +48,26 @@
 
 
    
-    margin: 228px auto 250px auto;
+    margin: 210px auto 230px auto;
        
 
      h1{
-        @include title-font;
-        font-size: 80px;
-        padding-bottom: 13px;
+        @include heroTitle;
+        padding-bottom: 10px;
          text-align: center;
+         color: #FF0A0A;
 
-         @include xs {
-             font-size: 30px;
-             line-height: normal;
-         }
+         
      }
 
      h2{
-         @include second-font;
+         @include subtitleFont;
          text-align: center;
+         text-transform: lowercase;
+         font-size: 40px;
 
 
-         @include xs {
-            font-size: 25px;
-            line-height: normal;
-            text-align: center;
-         }
+         
      
      }
 }

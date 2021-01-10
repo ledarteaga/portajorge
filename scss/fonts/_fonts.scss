@@ -1,78 +1,110 @@
-@mixin second-font {
-font-family: 'Yanone Kaffeesatz', sans-serif;font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 13px;
+@mixin navFont {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 25px;
 letter-spacing: -0.02em;
-color: #f7f7f7;
+
+color: #C4C4C4;
+
+ @include xs {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    
+    color: #C4C4C4;
+    
+    
+ }
+
+   
 }
 
-@mixin regular-font {
-font-family: 'Yeseva One';
+@mixin heroTitle {
+    font-family: Yeseva One;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 40px;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-
-color: #fdfdfd;
-
-}
-
-@mixin title-font {
-font-family: 'Kanit', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
+font-size: 80px;
 line-height: 92px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
+
 color: #C4C4C4;
+
+  @include xs {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #C4C4C4;
+    
+    
+  }
 }
 
-@mixin email-fonts {
-font-family: 'Kanit', sans-serif;font-style: normal;
+@mixin subtitleFont {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 59px;
+
+/* identical to box height */
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #C4C4C4;
+ 
+ @include xs {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #C4C4C4;
+    
+    
+ }
+
+}
+
+@mixin bodyFont {
+    
+font-family: Work Sans;
+font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 40px;
+font-size: 22px;
+line-height: 45px;
+
+/* identical to box height, or 205% */
+letter-spacing: -0.02em;
+
+color: #C4C4C4;
+
+
+}
+
+@mixin emailFont {
+    font-family: Yeseva One;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 69px;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 
 color: #C4C4C4;
 
+
 }
-
-@mixin body-fonts {
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-}
-
-@mixin subtitle-fonts {
-    font-family: 'Kanit', sans-serif;
-    font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 41px;
-letter-spacing: -0.02em;
-text-transform: lowercase;
-text-align: center;
-padding: 4rem 0;
-
-color: #f7f7f7
-}
-
-    @font-face {
-        font-family: 'Outrunfuture-Bold';
-        src: url('outrun-future/Outrunfuture-Bold.eot');
-        src: url('outrun-future/Outrunfuture-Bold.eot?#iefix') format('embedded-opentype'),
-             url('outrun-future/Outrunfuture-Bold.svg#Outrunfuture-Bold') format('svg'),
-             url('outrun-future/Outrunfuture-Bold.ttf') format('truetype'),
-             url('outrun-future/Outrunfuture-Bold.woff') format('woff'),
-             url('outrun-future/Outrunfuture-Bold.woff2') format('woff2');
-        font-weight: normal;
-        font-style: normal;
-      }
