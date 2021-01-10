@@ -164,50 +164,38 @@
   }
 }
 
-.servicios-bg {
-  background: #01020A;
+.sobremi {
+  background-color: #100F0D;
 }
 
-.servicios-bg .blurb {
+.sobremi .sobremi-content {
   display: flex;
   flex-wrap: wrap;
-}
-
-.servicios-bg .figure {
-  width: 50%;
-  min-width: 400px;
+  margin: 163px 112px;
 }
 
 @media screen and (max-width: 599px) {
-  .servicios-bg .figure {
-    width: 100%;
-    min-width: 0;
+  .sobremi .sobremi-content {
+    margin: 163px 10px;
   }
 }
 
-.servicios-bg .figure img {
+.sobremi .sobremi-content .sobremi-picture figure img {
   width: 100%;
 }
 
-@media screen and (max-width: 599px) {
-  .servicios-bg .figure img {
-    width: 100%;
-  }
-}
-
-.servicios-bg .blurb-text {
-  width: 50%;
-  margin: auto;
-  padding: 0 30px;
+.sobremi .sobremi-content .sobremi-text {
+  width: 357px;
+  margin: 0 86px;
 }
 
 @media screen and (max-width: 599px) {
-  .servicios-bg .blurb-text {
-    width: 100%;
+  .sobremi .sobremi-content .sobremi-text {
+    margin: 30px 30px;
   }
 }
 
-.servicios-bg .blurb-text h2 {
+.sobremi .sobremi-content .sobremi-text h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 900;
@@ -217,25 +205,35 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  text-transform: uppercase;
-  text-align: left;
 }
 
 @media screen and (max-width: 599px) {
-  .servicios-bg .blurb-text h2 {
+  .sobremi .sobremi-content .sobremi-text h2 {
     font-size: 30px;
   }
 }
 
-.servicios-bg .blurb-text p {
+.sobremi .sobremi-content .sobremi-text p {
   font-family: Work Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 45px;
-  /* identical to box height, or 205% */
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
+  margin: 19px 0;
+}
+
+@media screen and (max-width: 599px) {
+  .sobremi .sobremi-content .sobremi-text p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+  }
 }
 
 .subtitulo {
@@ -427,9 +425,9 @@
 }
 
 .btn {
-  background-color: rgba(31, 60, 138, 0.432);
+  background: #1d1b17;
+  border-radius: 5px;
   text-align: center;
-  border-radius: 10px;
   text-align: center;
   justify-content: center;
   width: 227px;
@@ -463,6 +461,7 @@
   text-transform: uppercase;
   color: #C4C4C4;
   font-size: 20px;
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 599px) {

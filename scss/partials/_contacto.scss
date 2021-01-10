@@ -35,9 +35,9 @@
 }
 
 .btn {
-    background-color: rgba(31, 60, 138, 0.432);
+    background: #1d1b17;
+    border-radius: 5px;
     text-align: center;
-    border-radius: 10px;
     text-align: center;
     justify-content: center;
     width: 227px;
@@ -64,6 +64,7 @@
          p {
              @include subtitleFont;
              font-size: 20px;
+             padding: 10px 0;
 
               @include xs {
                   font-size: 15px;

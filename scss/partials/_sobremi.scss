@@ -1,0 +1,49 @@
+.sobremi {
+    background-color: #100F0D;
+    
+    .sobremi-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 163px 112px;
+
+        @include xs {
+            margin: 163px 10px;
+        }
+
+        .sobremi-picture {
+            
+             figure {
+
+                
+                 img {
+                     width: 100%;
+                 }
+             }
+        }
+
+        .sobremi-text {
+            width: 357px;
+            margin: 0 86px;
+
+            @include xs {
+                margin: 30px 30px;
+            }
+
+            h2 {
+                @include subtitleFont;
+            }
+
+            p {
+                @include navFont;
+                margin: 19px 0;
+
+            }
+
+        }
+
+    }
+
+     
+     
+
+}
