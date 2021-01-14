@@ -1,0 +1,54 @@
+#wuff {
+    background: #100F0D;
+
+    .content {
+
+        margin: 0 50px;
+        
+        
+        .container1 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px 0;
+
+            .container-pic {
+                width: 550px;
+                margin: auto;
+
+                 img {
+                     width: 100%;
+                 }
+            }
+
+            .container-text {
+                width: 30%;
+                margin: 10px 50px;
+
+                 h2 {
+                     @include subtitleFont;
+                 }
+
+                 p {
+                     @include navFont;
+                     margin: 35px 0;
+                 }
+            }
+        }
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 50px 0;
+
+            img {
+                width: 400px;
+
+                @include xs {
+                    width: 100%;
+                    margin: 30px 10px;
+                }
+            }
+        }
+    }
+}

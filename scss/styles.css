@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hero-bg {
   background: url(/media/gif.gif);
   background-repeat: no-repeat;
@@ -305,10 +306,10 @@
 }
 
 .videos span {
-  width: 389px;
+  width: 350px;
   min-height: 279px;
   max-height: 279px;
-  margin: 106px 40px;
+  margin: 90px 40px;
   transition: all 0.1s ease;
 }
 
@@ -488,6 +489,218 @@ footer {
   letter-spacing: -0.02em;
   color: #C4C4C4;
   font-size: 15px;
+}
+
+#wuff {
+  background: #100F0D;
+}
+
+#wuff .content {
+  margin: 0 50px;
+}
+
+#wuff .content .container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+#wuff .content .container1 .container-pic {
+  width: 550px;
+  margin: auto;
+}
+
+#wuff .content .container1 .container-pic img {
+  width: 100%;
+}
+
+#wuff .content .container1 .container-text {
+  width: 30%;
+  margin: 10px 50px;
+}
+
+#wuff .content .container1 .container-text h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+}
+
+@media screen and (max-width: 599px) {
+  #wuff .content .container1 .container-text h2 {
+    font-size: 30px;
+  }
+}
+
+#wuff .content .container1 .container-text p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 599px) {
+  #wuff .content .container1 .container-text p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+  }
+}
+
+#wuff .content .container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+#wuff .content .container2 img {
+  width: 400px;
+}
+
+@media screen and (max-width: 599px) {
+  #wuff .content .container2 img {
+    width: 100%;
+    margin: 30px 10px;
+  }
+}
+
+#roche {
+  background: #100F0D;
+}
+
+#roche .content {
+  margin: 0 50px;
+}
+
+#roche .content .container1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+#roche .content .container1 .container-pic {
+  width: 550px;
+  margin: auto;
+}
+
+#roche .content .container1 .container-pic img {
+  width: 100%;
+}
+
+#roche .content .container1 .container-text {
+  width: 30%;
+  margin: 10px 50px;
+}
+
+#roche .content .container1 .container-text h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+}
+
+@media screen and (max-width: 599px) {
+  #roche .content .container1 .container-text h2 {
+    font-size: 30px;
+  }
+}
+
+#roche .content .container1 .container-text p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 599px) {
+  #roche .content .container1 .container-text p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+  }
+}
+
+#roche .content .campaña1, #roche .content .campaña2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#roche .content .campaña1 h2, #roche .content .campaña2 h2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #C4C4C4;
+  margin: 35px 0;
+}
+
+@media screen and (max-width: 599px) {
+  #roche .content .campaña1 h2, #roche .content .campaña2 h2 {
+    font-size: 30px;
+  }
+}
+
+#roche .content .campaña1 p, #roche .content .campaña2 p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #C4C4C4;
+}
+
+@media screen and (max-width: 599px) {
+  #roche .content .campaña1 p, #roche .content .campaña2 p {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #C4C4C4;
+  }
+}
+
+#roche .content .campaña1 figure, #roche .content .campaña2 figure {
+  width: 400px;
+  height: auto;
+  margin: 40px 15px;
+}
+
+#roche .content .campaña1 figure img, #roche .content .campaña2 figure img {
+  width: 100%;
 }
 
 * {
