@@ -1,4 +1,4 @@
-#roche {
+#roche, #discover {
     background: #100F0D;
 
     .content {
@@ -15,6 +15,10 @@
                 width: 550px;
                 margin: auto;
 
+                @include xs {
+                    width: 100%;
+                }
+
                  img {
                      width: 100%;
                  }
@@ -24,8 +28,16 @@
                 width: 30%;
                 margin: 10px 50px;
 
+                @include xs {
+                    width: 100%;
+                    margin: 10px 0;
+                }
+
+              
+
                  h2 {
                      @include subtitleFont;
+                     
                  }
 
                  p {
@@ -38,10 +50,14 @@
         .campaña1,.campaña2 {
             display: flex;
             flex-wrap: wrap;
+            
 
             h2 {
                 @include subtitleFont;
                 margin: 35px 0;
+                
+
+               
 
             }
 
@@ -54,6 +70,11 @@
                 width: 400px;
                 height: auto;
                 margin: 40px 15px;
+
+                @include xs {
+                    margin: 40px 0;
+                    width: 100%;
+                }
 
                 img {
                     width: 100%;

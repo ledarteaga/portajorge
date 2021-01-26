@@ -491,35 +491,35 @@ footer {
   font-size: 15px;
 }
 
-#wuff {
+#wuff, #vitac {
   background: #100F0D;
 }
 
-#wuff .content {
+#wuff .content, #vitac .content {
   margin: 0 50px;
 }
 
-#wuff .content .container1 {
+#wuff .content .container1, #vitac .content .container1 {
   display: flex;
   flex-wrap: wrap;
   margin: 50px 0;
 }
 
-#wuff .content .container1 .container-pic {
+#wuff .content .container1 .container-pic, #vitac .content .container1 .container-pic {
   width: 550px;
   margin: auto;
 }
 
-#wuff .content .container1 .container-pic img {
+#wuff .content .container1 .container-pic img, #vitac .content .container1 .container-pic img {
   width: 100%;
 }
 
-#wuff .content .container1 .container-text {
+#wuff .content .container1 .container-text, #vitac .content .container1 .container-text {
   width: 30%;
   margin: 10px 50px;
 }
 
-#wuff .content .container1 .container-text h2 {
+#wuff .content .container1 .container-text h2, #vitac .content .container1 .container-text h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 900;
@@ -532,12 +532,12 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #wuff .content .container1 .container-text h2 {
+  #wuff .content .container1 .container-text h2, #vitac .content .container1 .container-text h2 {
     font-size: 30px;
   }
 }
 
-#wuff .content .container1 .container-text p {
+#wuff .content .container1 .container-text p, #vitac .content .container1 .container-text p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
@@ -549,7 +549,7 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #wuff .content .container1 .container-text p {
+  #wuff .content .container1 .container-text p, #vitac .content .container1 .container-text p {
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
@@ -560,53 +560,67 @@ footer {
   }
 }
 
-#wuff .content .container2 {
+#wuff .content .container2, #vitac .content .container2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin: 50px 0;
 }
 
-#wuff .content .container2 img {
-  width: 400px;
+#wuff .content .container2 img, #vitac .content .container2 img {
+  width: 450px;
+  margin: 0 30px;
 }
 
 @media screen and (max-width: 599px) {
-  #wuff .content .container2 img {
+  #wuff .content .container2 img, #vitac .content .container2 img {
     width: 100%;
     margin: 30px 10px;
   }
 }
 
-#roche {
+#roche, #discover {
   background: #100F0D;
 }
 
-#roche .content {
+#roche .content, #discover .content {
   margin: 0 50px;
 }
 
-#roche .content .container1 {
+#roche .content .container1, #discover .content .container1 {
   display: flex;
   flex-wrap: wrap;
   margin: 50px 0;
 }
 
-#roche .content .container1 .container-pic {
+#roche .content .container1 .container-pic, #discover .content .container1 .container-pic {
   width: 550px;
   margin: auto;
 }
 
-#roche .content .container1 .container-pic img {
+@media screen and (max-width: 599px) {
+  #roche .content .container1 .container-pic, #discover .content .container1 .container-pic {
+    width: 100%;
+  }
+}
+
+#roche .content .container1 .container-pic img, #discover .content .container1 .container-pic img {
   width: 100%;
 }
 
-#roche .content .container1 .container-text {
+#roche .content .container1 .container-text, #discover .content .container1 .container-text {
   width: 30%;
   margin: 10px 50px;
 }
 
-#roche .content .container1 .container-text h2 {
+@media screen and (max-width: 599px) {
+  #roche .content .container1 .container-text, #discover .content .container1 .container-text {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+#roche .content .container1 .container-text h2, #discover .content .container1 .container-text h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 900;
@@ -619,12 +633,12 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #roche .content .container1 .container-text h2 {
+  #roche .content .container1 .container-text h2, #discover .content .container1 .container-text h2 {
     font-size: 30px;
   }
 }
 
-#roche .content .container1 .container-text p {
+#roche .content .container1 .container-text p, #discover .content .container1 .container-text p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
@@ -636,7 +650,7 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #roche .content .container1 .container-text p {
+  #roche .content .container1 .container-text p, #discover .content .container1 .container-text p {
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
@@ -647,12 +661,12 @@ footer {
   }
 }
 
-#roche .content .campaña1, #roche .content .campaña2 {
+#roche .content .campaña1, #roche .content .campaña2, #discover .content .campaña1, #discover .content .campaña2 {
   display: flex;
   flex-wrap: wrap;
 }
 
-#roche .content .campaña1 h2, #roche .content .campaña2 h2 {
+#roche .content .campaña1 h2, #roche .content .campaña2 h2, #discover .content .campaña1 h2, #discover .content .campaña2 h2 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: 900;
@@ -666,12 +680,12 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #roche .content .campaña1 h2, #roche .content .campaña2 h2 {
+  #roche .content .campaña1 h2, #roche .content .campaña2 h2, #discover .content .campaña1 h2, #discover .content .campaña2 h2 {
     font-size: 30px;
   }
 }
 
-#roche .content .campaña1 p, #roche .content .campaña2 p {
+#roche .content .campaña1 p, #roche .content .campaña2 p, #discover .content .campaña1 p, #discover .content .campaña2 p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
@@ -682,7 +696,7 @@ footer {
 }
 
 @media screen and (max-width: 599px) {
-  #roche .content .campaña1 p, #roche .content .campaña2 p {
+  #roche .content .campaña1 p, #roche .content .campaña2 p, #discover .content .campaña1 p, #discover .content .campaña2 p {
     font-family: Work Sans;
     font-style: normal;
     font-weight: bold;
@@ -693,13 +707,20 @@ footer {
   }
 }
 
-#roche .content .campaña1 figure, #roche .content .campaña2 figure {
+#roche .content .campaña1 figure, #roche .content .campaña2 figure, #discover .content .campaña1 figure, #discover .content .campaña2 figure {
   width: 400px;
   height: auto;
   margin: 40px 15px;
 }
 
-#roche .content .campaña1 figure img, #roche .content .campaña2 figure img {
+@media screen and (max-width: 599px) {
+  #roche .content .campaña1 figure, #roche .content .campaña2 figure, #discover .content .campaña1 figure, #discover .content .campaña2 figure {
+    margin: 40px 0;
+    width: 100%;
+  }
+}
+
+#roche .content .campaña1 figure img, #roche .content .campaña2 figure img, #discover .content .campaña1 figure img, #discover .content .campaña2 figure img {
   width: 100%;
 }
 
