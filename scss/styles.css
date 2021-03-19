@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: top;
   width: 100%;
-  height: 765px;
+  height: 730px;
 }
 
 .navbar {
@@ -13,14 +13,21 @@
 }
 
 .navbar nav {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .navbar nav :hover {
   color: #db0000;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -32,6 +39,8 @@
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 60px;
   text-decoration: none;
@@ -69,7 +78,7 @@
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -109,7 +118,7 @@
   color: #C4C4C4;
   text-align: center;
   text-transform: lowercase;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 599px) {
@@ -125,8 +134,12 @@
 }
 
 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 296px;
   margin: auto;
   padding-bottom: 5px;
@@ -150,6 +163,7 @@
 
 .links figure svg {
   fill: whitesmoke;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -170,8 +184,11 @@
 }
 
 .sobremi .sobremi-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 163px 112px;
 }
 
@@ -263,29 +280,43 @@
 }
 
 #marcas .brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #marcas .brands .row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #marcas .brands .row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #marcas .brands figure {
   width: 150px;
   margin: 4rem;
+  -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
 }
 
@@ -299,18 +330,28 @@
 }
 
 .videos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .videos span {
   width: 350px;
-  min-height: 279px;
-  max-height: 279px;
   margin: 90px 40px;
-  transition: all 0.1s ease;
+}
+
+.videos span img {
+  min-height: 190px;
+  max-height: 279px;
+  max-width: 350px;
 }
 
 @media screen and (max-width: 599px) {
@@ -353,7 +394,9 @@
 
 .contacto-texto {
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 300px;
 }
 
@@ -367,7 +410,7 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 599px) {
@@ -392,6 +435,7 @@
   text-transform: uppercase;
   color: #C4C4C4;
   text-decoration: none;
+  font-size: 45px;
 }
 
 @media screen and (max-width: 599px) {
@@ -405,20 +449,24 @@
   border-radius: 5px;
   text-align: center;
   text-align: center;
-  justify-content: center;
-  width: 227px;
-  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  margin: 20px auto;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 599px) {
   .btn {
-    width: 180px;
+    width: 150px;
   }
 }
 
 .btn :hover {
   background-color: #1b2a53;
+  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -436,8 +484,8 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  font-size: 20px;
-  padding: 10px 0;
+  font-size: 15px;
+  padding: 4px;
 }
 
 @media screen and (max-width: 599px) {
@@ -453,8 +501,8 @@
 }
 
 footer {
-  background: #000000;
-  text-align: center;
+  background: #131326;
+  text-align: right;
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
@@ -463,7 +511,11 @@ footer {
   /* identical to box height, or 205% */
   letter-spacing: -0.02em;
   color: #C4C4C4;
-  font-size: 15px;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 0 20px;
 }
 
 #wuff, #vitac {
@@ -475,8 +527,11 @@ footer {
 }
 
 #wuff .content .container1, #vitac .content .container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 50px 0;
 }
 
@@ -536,15 +591,20 @@ footer {
 }
 
 #wuff .content .container2, #vitac .content .container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 50px 0;
 }
 
 #wuff .content .container2 img, #vitac .content .container2 img {
-  width: 450px;
-  margin: 0 30px;
+  width: 380px;
+  margin: 15px 30px;
 }
 
 @media screen and (max-width: 599px) {
@@ -563,8 +623,11 @@ footer {
 }
 
 #roche .content .container1, #discover .content .container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 50px 0;
 }
 
@@ -637,8 +700,11 @@ footer {
 }
 
 #roche .content .campaña1, #roche .content .campaña2, #discover .content .campaña1, #discover .content .campaña2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #roche .content .campaña1 h2, #roche .content .campaña2 h2, #discover .content .campaña1 h2, #discover .content .campaña2 h2 {
@@ -700,7 +766,8 @@ footer {
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -717,3 +784,4 @@ body, html {
   width: 90%;
   margin: auto;
 }
+/*# sourceMappingURL=styles.css.map */

@@ -13,10 +13,15 @@
 
     span {
         width: 350px;
-        min-height: 279px;
-        max-height: 279px;
+        
         margin: 90px 40px;
-        transition: all 0.1s ease;
+
+        img {
+            min-height: 190px;
+            max-height: 279px;
+            max-width: 350px;
+        }
+        
 
 
 

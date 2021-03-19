@@ -11,7 +11,7 @@
 
     h2 {
         @include subtitleFont;
-        font-size: 30px;
+        font-size: 20px;
 
          @include xs {
              font-size: 17px;
@@ -21,6 +21,7 @@
     .email {
         @include emailFont;
         text-decoration: none;
+        font-size: 45px;
        
 
 
@@ -40,12 +41,12 @@
     text-align: center;
     text-align: center;
     justify-content: center;
-    width: 227px;
-    margin: 30px auto;
+    width: 150px;
+    margin: 20px auto;
     transition: all 0.3s ease-in-out;
 
     @include xs {
-        width: 180px;
+        width: 150px;
     }
 
     :hover {
@@ -63,8 +64,8 @@
          
          p {
              @include subtitleFont;
-             font-size: 20px;
-             padding: 10px 0;
+             font-size: 15px;
+             padding: 4px;
 
               @include xs {
                   font-size: 15px;
@@ -78,8 +79,12 @@
 // footer
 
 footer {
-    background: #000000;
-    text-align: center;
+    background: #131326;
+    text-align: right;
     @include bodyFont;
-    font-size: 15px;
+    font-size: 13px;
+
+     p {
+         margin: 0 20px;
+     }
 }
