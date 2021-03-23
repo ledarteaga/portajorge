@@ -35,7 +35,7 @@
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
@@ -65,7 +65,7 @@
 }
 
 .hero-title {
-  margin: 210px auto 230px auto;
+  margin: 210px auto 200px auto;
 }
 
 @media screen and (max-width: 599px) {
@@ -78,12 +78,11 @@
   font-family: Yeseva One;
   font-style: normal;
   font-weight: normal;
-  font-size: 70px;
+  font-size: 65px;
   line-height: 92px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #FF0A0A;
-  padding-bottom: 10px;
   text-align: center;
   color: #FF0A0A;
 }
@@ -116,9 +115,10 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #C4C4C4;
-  text-align: center;
+  text-align: left;
+  margin-left: 770px;
   text-transform: lowercase;
-  font-size: 35px;
+  font-size: 31px;
 }
 
 @media screen and (max-width: 599px) {
@@ -235,7 +235,7 @@
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
@@ -571,7 +571,7 @@ footer p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
@@ -680,7 +680,7 @@ footer p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
@@ -730,7 +730,7 @@ footer p {
   font-family: Work Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.02em;
   color: #C4C4C4;
