@@ -52,7 +52,7 @@
 
 
    
-    margin: 210px auto 230px auto;
+    margin: 210px auto 200px auto;
 
      @include xs {
          margin-left: 20px;
@@ -61,7 +61,6 @@
 
      h1{
         @include heroTitle;
-        padding-bottom: 10px;
          text-align: center;
          color: #FF0A0A;
 
@@ -74,12 +73,14 @@
 
      h2{
          @include subtitleFont;
-         text-align: center;
+         text-align: left;
+         margin-left: 770px;
          text-transform: lowercase;
-         font-size: 35px;
+         font-size: 31px;
 
          @include xs {
             text-align: left;
+            margin-left: 0;
         }
 
 
